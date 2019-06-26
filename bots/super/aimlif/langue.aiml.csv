@@ -1,0 +1,30 @@
+0,OUI,VEUX-TU QUE JE TE TRADUIT BONJOUR EN ANGLAIS,*,<srai>BONJOUR EN ANGLAIS</srai>. Veux-tu que je te traduit Bonjour en arabe?,langue.aiml
+0,NON,VEUX-TU QUE JE TE TRADUIT BONJOUR EN ANGLAIS,*,Veux-tu que je te propose des musiques du livre de la jungle?,langue.aiml
+0,OUI,VEUX-TU QUE JE TE TRADUIT BONJOUR EN ARABE,*,<srai>BONJOUR EN ARABE</srai>. Veux-tu que je te traduit Au revoir en arabe?,langue.aiml
+0,NON,VEUX-TU QUE JE TE TRADUIT BONJOUR EN ARABE,*,Veux-tu que je te propose des musiques du livre de la jungle?,langue.aiml
+0,OUI,VEUX-TU QUE JE TE TRADUIT AU REVOIR EN ARABE,*,<srai>AU REVOIR EN ARABE</srai>. Veux-tu que je te traduit Au revoir en anglais?,langue.aiml
+0,NON,VEUX-TU QUE JE TE TRADUIT AU REVOIR EN ARABE,*,Veux-tu que je te propose des musiques du livre de la jungle?,langue.aiml
+0,OUI,VEUX-TU QUE JE TE TRADUIT AU REVOIR EN ANGLAIS,*,<srai>AU REVOIR EN ANGLAIS</srai>. Veux-tu que je te traduit je m'appelle Baloo en anglais?,langue.aiml
+0,NON,VEUX-TU QUE JE TE TRADUIT AU REVOIR EN ANGLAIS,*,Veux-tu que je te propose des musiques du livre de la jungle?,langue.aiml
+0,OUI,VEUX-TU QUE JE TE TRADUIT JE M'APPELLE BALOO EN ANGLAIS,*,<srai>JE M'APPELLE BALOO EN ANGLAIS</srai>. Veux-tu que je te traduit je m'appelle Baloo en arabe?,langue.aiml
+0,NON,VEUX-TU QUE JE TE TRADUIT JE M'APPELLE BALOO EN ANGLAIS,*,Veux-tu que je te propose des musiques du livre de la jungle?,langue.aiml
+0,OUI,VEUX-TU QUE JE TE TRADUIT JE M'APPELLE BALOO EN ARABE,*,<srai>JE M'APPELLE BALOO EN ARABE</srai>. Veux-tu que je te traduit je suis un ours joyeux et paresseux en arabe?,langue.aiml
+0,NON,VEUX-TU QUE JE TE TRADUIT JE M'APPELLE BALOO EN ARABE,*,Veux-tu que je te propose des musiques du livre de la jungle?,langue.aiml
+0,OUI,JE SUIS UN OURS JOYEUX ET PARESSEUX EN ARABE,*,<srai>JE SUIS UN OURS JOYEUX ET PARESSEUX EN ARABE</srai>. Veux-tu que je te traduit je suis un ours joyeux et paresseux en anglais?,langue.aiml
+0,NON,JE SUIS UN OURS JOYEUX ET PARESSEUX EN ARABE,*,Veux-tu que je te propose des musiques du livre de la jungle?,langue.aiml
+0,OUI,JE SUIS UN OURS JOYEUX ET PARESSEUX EN ANGLAIS,*,<srai>JE SUIS UN OURS JOYEUX ET PARESSEUX EN ANGLAIS</srai>. Veux-tu que je te traduit je suis fan des fêtes et de la musique jazz en anglais?,langue.aiml
+0,NON,JE SUIS UN OURS JOYEUX ET PARESSEUX EN ANGLAIS,*,Veux-tu que je te propose des musiques du livre de la jungle?,langue.aiml
+0,OUI,JE SUIS FAN DES FETES SURTOUT DE LA MUSIQUE JAZZ EN ANGLAIS,*,<srai>JE SUIS FAN DES FETES SURTOUT DE LA MUSIQUE JAZZ EN ANGLAIS</srai>. Veux-tu que je te traduit je suis fan des fêtes et de la musique jazz en anglais?,langue.aiml
+0,NON,JE SUIS FAN DES FETES SURTOUT DE LA MUSIQUE JAZZ EN ANGLAIS,*,Veux-tu que je te propose des musiques du livre de la jungle?,langue.aiml
+0,OUI,JE SUIS FAN DES FETES SURTOUT DE LA MUSIQUE JAZZ EN ARABE,*,<srai>JE SUIS FAN DES FETES SURTOUT DE LA MUSIQUE JAZZ EN ARABE</srai>. Veux-tu que je te propose des musiques du livre de la jungle?,langue.aiml
+0,NON,JE SUIS FAN DES FETES SURTOUT DE LA MUSIQUE JAZZ EN ARABE,*,Veux-tu que je te propose des musiques du livre de la jungle?,langue.aiml
+0,BONJOUR EN ARABE,*,*,sabahou al khairy ^.^,langue.aiml
+0,BONJOUR EN ANGLAIS,*,*,Good morning or Hello ^.^,langue.aiml
+0,AU REVOIR EN ARABE,*,*,Ilaa likaa,langue.aiml
+0,AU REVOIR EN ANGLAIS,*,*,GoodBye,langue.aiml
+0,JE M'APPELLE BALOO EN ARABE,*,*,Ismi Baloo,langue.aiml
+0,JE M'APPELLE BALOO EN ANGLAIS,*,*,My name is Baloo or I'm Baloo,langue.aiml
+0,JE SUIS UN OURS JOYEUX ET PARESSEUX EN ARABE,*,*,Ana debbon saidon wa kassoul,langue.aiml
+0,JE SUIS UN OURS JOYEUX ET PARESSEUX EN ANGLAIS,*,*,I'm a happy and lazy bear,langue.aiml
+0,JE SUIS FAN DES FETES SURTOUT DE LA MUSIQUE JAZZ EN ARABE,*,*,Ouhibou al hafaleti  khassatan moussika al jazz,langue.aiml
+0,JE SUIS FAN DES FETES SURTOUT DE LA MUSIQUE JAZZ EN ANGLAIS,*,*,I love parties especially jazz music,langue.aiml

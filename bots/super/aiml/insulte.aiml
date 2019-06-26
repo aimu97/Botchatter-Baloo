@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+	<category>
+		<pattern>IMPOLI</pattern>
+		<template>
+			<random>
+				<li>Pardon?</li>
+				<li>Change ton langage</li>
+				<li>Toi meme></li>
+				<li>Imbecile</li>
+				<li>Je crois avoir mal entendu! Je pense que mon imagination me joue des tours</li>
+				<li> Je ne comprend pas </li>
+			</random>
+		</template>
+	</category>
+
+	<category>
+		<pattern>TA GUEULE</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+	<category>
+		<pattern>ABRUTI</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+	<category>
+		<pattern>CON</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>CONNARD</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>CRETIN</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>NIQUE</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>FDP</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>JE M'EN FOU</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>JE M'EN BAL LES COUILLE</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>MERDE</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>PUTAIN</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>SA RACE</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>PUTE</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>SALOPERIE</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>TU ES NUL</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>TU PUE LA MERDE</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>SALOPARD</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>PD</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>CON</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>PIPI</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>CACA</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>FESSE</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+	
+
+	<category>
+		<pattern>TA GUEULE *</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+	<category>
+		<pattern>ABRUTI *</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+	<category>
+		<pattern>CON *</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>CONNARD *</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>CRETIN *</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>NIQUE *</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>FDP *</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>JE M'EN FOU *</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>JE M'EN BAL LES COUILLE *</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>MERDE *</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>PUTAIN *</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>SA RACE *</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>PUTE *</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>SALOPERIE *</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>TU ES NUL *</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>TU PUE LA MERDE *</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>SALOPARD *</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>PD *</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>CON *</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>PIPI *</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>CACA *</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>FESSE *</pattern>
+		<template><srai>IMPOLI</srai></template>
+	</category>
+	
+
+
+</aiml>

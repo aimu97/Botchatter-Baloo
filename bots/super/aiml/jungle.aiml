@@ -1,0 +1,1405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+
+<category>
+	<pattern>OUI</pattern>
+	<that>VEUX-TU VENIR AVEC MOI DANS LA JUNGLE</that>
+	<template>Suis-moi jeune humain! Bienvenue dans mon monde. Voici mon album photos! Veux-tu que je te montre des photos des animaux de la jungle?</template> 
+</category>
+
+
+<category>
+	<pattern>NON</pattern>
+	<that>VEUX-TU VENIR AVEC MOI DANS LA JUNGLE</that>
+	<template>
+			<random>
+				<li>Je suis un solitaire et rusé.Je use de la persuation et de mon talent d'hypnotise pour tenter d'arriver à mes fins.Je n'ai pas peur de qui que ce soit à part Shere Khan. Quel reponse donneras tu?</li>
+				<li>Je suis très attaché à Mowgli, je le défend contre tout type de situation. C'est grâce moi que le petit homme a survécu, car je suis celui qui a pris pitié de lui et je l'ai mis en sécurité chez les loups. Quel serait la reponse?</li>
+				<li>Je connaît bien mal les dangers de la jungle.Et je suis têtu. Qui est-ce?</li>
+				<li>J'ai un bon vivant qui prend la vie comme elle me vient, à la légère.Je suis un costaud au grand coeur, il s'avère que je suis tendre et compréhensif et surtout,fidèle à l'amitié que je porte. Comment m'appelle t-on?</li>
+				<li>Je suis la compagne du Colonel Hathi.Je suis une maman attentionnée. As-tu trouve?</li>
+				<li>Je suis une amie proche de Mowgli. C'est?</li>
+				<li>Je suis est un orang-outang aspirant à être humain.Je veux découvrir le secret de l'homme, tout particulièrement la recette qui me permettrait de créer le feu. La reponse est?</li>
+				<li>Je suis réputé pour ma fermeté et mon sens de la discipline, il s'avère que je suis intolérant et déterminé à préserver mon honneur et mon rang. Je suis également papa. Donc?</li>
+				<li>Je suis un jeune petit éléphanteau qui désire un jour devenir colonel comme mon papa. Je suis?</li>
+				<li>Je suis le père adoptif de Mowgli. Ce personnage est?</li>
+			</random>
+		</template>
+</category>
+
+<category>
+	<pattern>NON *</pattern>
+	<that>VEUX-TU VENIR AVEC MOI DANS LA JUNGLE</that>
+	<template><random>
+				<li>Je suis un solitaire et rusé.Je use de la persuation et de mon talent d'hypnotise pour tenter d'arriver à mes fins.Je n'ai pas peur de qui que ce soit à part Shere Khan. Quel reponse donneras tu?</li>
+				<li>Je suis très attaché à Mowgli, je le défend contre tout type de situation. C'est grâce moi que le petit homme a survécu, car je suis celui qui a pris pitié de lui et je l'ai mis en sécurité chez les loups. Quel serait la reponse?</li>
+				<li>Je connaît bien mal les dangers de la jungle.Et je suis têtu. Qui est-ce?</li>
+				<li>J'ai un bon vivant qui prend la vie comme elle me vient, à la légère.Je suis un costaud au grand coeur, il s'avère que je suis tendre et compréhensif et surtout,fidèle à l'amitié que je porte. Comment m'appelle t-on?</li>
+				<li>Je suis la compagne du Colonel Hathi.Je suis une maman attentionnée. As-tu trouve?</li>
+				<li>Je suis une amie proche de Mowgli. C'est?</li>
+				<li>Je suis est un orang-outang aspirant à être humain.Je veux découvrir le secret de l'homme, tout particulièrement la recette qui me permettrait de créer le feu. La reponse est?</li>
+				<li>Je suis réputé pour ma fermeté et mon sens de la discipline, il s'avère que je suis intolérant et déterminé à préserver mon honneur et mon rang. Je suis également papa. Donc?</li>
+				<li>Je suis un jeune petit éléphanteau qui désire un jour devenir colonel comme mon papa. Je suis?</li>
+				<li>Je suis le père adoptif de Mowgli. Ce personnage est?</li>
+			</random>
+		</template> 
+</category>
+
+
+
+
+<category>
+	<pattern>OUI</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE DES PHOTOS DES ANIMAUX DE LA JUNGLE</that>
+	<template><srai>BALOO</srai> Veux-tu que je continue</template>
+</category>
+
+
+<category>
+	<pattern>YES</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE DES PHOTOS DES ANIMAUX DE LA JUNGLE</that>
+	<template><srai>BALOO</srai> Veux-tu que je continue</template>
+</category>
+
+<category>
+	<pattern>OUAIS</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE DES PHOTOS DES ANIMAUX DE LA JUNGLE</that>
+	<template><srai>BALOO</srai> Veux-tu que continue</template>
+</category>
+
+<category>
+	<pattern>OUI</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE DES PHOTOS DES ANIMAUX DE LA JUNGLE</that>
+	<template><srai>BALOO</srai> Veux-tu que je continue</template>
+</category>
+
+<category>
+	<pattern>OUI *</pattern>
+	<that>VEUX-TU VENIR AVEC MOI DANS LA JUNGLE</that>
+	<template>Suis-moi jeune humain! Bienvenue dans mon monde. Voici mon album photos! Veux-tu que je te montre des photos des animaux de la jungle?</template> 
+</category>
+
+<category>
+	<pattern>OUI *</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE DES PHOTOS DES ANIMAUX DE LA JUNGLE</that>
+	<template><srai>BALOO</srai> Veux-tu que je continue</template>
+</category>
+
+
+<category>
+	<pattern>YES *</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE DES PHOTOS DES ANIMAUX DE LA JUNGLE</that>
+	<template><srai>BALOO</srai> Veux-tu que je continue</template>
+</category>
+
+<category>
+	<pattern>OUAIS *</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE DES PHOTOS DES ANIMAUX DE LA JUNGLE</that>
+	<template><srai>BALOO</srai> Veux-tu que continue</template>
+</category>
+
+<category>
+	<pattern>OUI *</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE DES PHOTOS DES ANIMAUX DE LA JUNGLE</that>
+	<template><srai>BALOO</srai> Veux-tu que je continue</template>
+</category>
+
+
+
+<category>
+	<pattern>NON</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE DES PHOTOS DES ANIMAUX DE LA JUNGLE</that>
+	<template>
+		<random>
+			<li>Veux-tu que je te montre Shere Khan?</li>
+			<li>Veux-tu que je te montre Moi</li>
+			<li>Veux-tu que je te montre Bagheera</li>
+			<li>Veux-tu que je te montre Mowgli</li>
+			<li>Veux-tu que je te montre Junior</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Kaa</li>
+			<li>Veux-tu que je te montre Roi Louie</li>
+			<li>Veux-tu que je te montre Shanti</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Colonel Hathi</li>
+			<li>Veux-tu que je te montre Flunkey</li>
+			<li>Veux-tu que je te montre Rama</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Raksha</li>
+			<li>Veux-tu que je te montre Shere Khan</li>
+			<li>Veux-tu que je te montre les Singes</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Winifred</li>
+			<li>Veux-tu que je te montre les Vautours</li>
+			<li>Veux-tu que je te montre les Elephants</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>NO</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE DES PHOTOS DES ANIMAUX DE LA JUNGLE</that>
+	<template>
+		<random>
+			<li>Veux-tu que je te montre Shere Khan?</li>
+			<li>Veux-tu que je te montre Moi</li>
+			<li>Veux-tu que je te montre Bagheera</li>
+			<li>Veux-tu que je te montre Mowgli</li>
+			<li>Veux-tu que je te montre Junior</li>
+			<li>Veux-tu que je te montre Kaa</li>
+			<li>Veux-tu que je te montre Roi Louie</li>
+			<li>Veux-tu que je te montre Shanti</li>
+			<li>Veux-tu que je te montre Colonel Hathi</li>
+			<li>Veux-tu que je te montre Flunkey</li>
+			<li>Veux-tu que je te montre Rama</li>
+			<li>Veux-tu que je te montre Raksha</li>
+			<li>Veux-tu que je te montre Shere Khan</li>
+			<li>Veux-tu que je te montre les Singes</li>
+			<li>Veux-tu que je te montre Winifred</li>
+			<li>Veux-tu que je te montre les Vautours</li>
+			<li>Veux-tu que je te montre les Elephants</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>NON *</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE DES PHOTOS DES ANIMAUX DE LA JUNGLE</that>
+	<template>
+		<random>
+			<li>Veux-tu que je te montre Shere Khan?</li>
+			<li>Veux-tu que je te montre Moi</li>
+			<li>Veux-tu que je te montre Bagheera</li>
+			<li>Veux-tu que je te montre Mowgli</li>
+			<li>Veux-tu que je te montre Junior</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Kaa</li>
+			<li>Veux-tu que je te montre Roi Louie</li>
+			<li>Veux-tu que je te montre Shanti</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Colonel Hathi</li>
+			<li>Veux-tu que je te montre Flunkey</li>
+			<li>Veux-tu que je te montre Rama</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Raksha</li>
+			<li>Veux-tu que je te montre Shere Khan</li>
+			<li>Veux-tu que je te montre les Singes</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Winifred</li>
+			<li>Veux-tu que je te montre les Vautours</li>
+			<li>Veux-tu que je te montre les Elephants</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>NO *</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE DES PHOTOS DES ANIMAUX DE LA JUNGLE</that>
+	<template>
+		<random>
+			<li>Veux-tu que je te montre Shere Khan?</li>
+			<li>Veux-tu que je te montre Moi</li>
+			<li>Veux-tu que je te montre Bagheera</li>
+			<li>Veux-tu que je te montre Mowgli</li>
+			<li>Veux-tu que je te montre Junior</li>
+			<li>Veux-tu que je te montre Kaa</li>
+			<li>Veux-tu que je te montre Roi Louie</li>
+			<li>Veux-tu que je te montre Shanti</li>
+			<li>Veux-tu que je te montre Colonel Hathi</li>
+			<li>Veux-tu que je te montre Flunkey</li>
+			<li>Veux-tu que je te montre Rama</li>
+			<li>Veux-tu que je te montre Raksha</li>
+			<li>Veux-tu que je te montre Shere Khan</li>
+			<li>Veux-tu que je te montre les Singes</li>
+			<li>Veux-tu que je te montre Winifred</li>
+			<li>Veux-tu que je te montre les Vautours</li>
+			<li>Veux-tu que je te montre les Elephants</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>NON</pattern>
+	<that>VEUX-TU JOUER AU DEVINETTE AVEC MOI</that>
+	<template>
+		<random>
+			<li>Veux-tu que je te montre Shere Khan?</li>
+			<li>Veux-tu que je te montre Moi</li>
+			<li>Veux-tu que je te montre Bagheera</li>
+			<li>Veux-tu que je te montre Mowgli</li>
+			<li>Veux-tu que je te montre Junior</li>
+			<li>Veux-tu que je te montre Kaa</li>
+			<li>Veux-tu que je te montre Roi Louie</li>
+			<li>Veux-tu que je te montre Shanti</li>
+			<li>Veux-tu que je te montre Colonel Hathi</li>
+			<li>Veux-tu que je te montre Flunkey</li>
+			<li>Veux-tu que je te montre Rama</li>
+			<li>Veux-tu que je te montre Raksha</li>
+			<li>Veux-tu que je te montre Shere Khan</li>
+			<li>Veux-tu que je te montre les Singes</li>
+			<li>Veux-tu que je te montre Winifred</li>
+			<li>Veux-tu que je te montre les Vautours</li>
+			<li>Veux-tu que je te montre les Elephants</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>NON *</pattern>
+	<that>VEUX-TU JOUER AU DEVINETTE AVEC MOI</that>
+	<template>
+		<random>
+			<li>Veux-tu que je te montre Shere Khan?</li>
+			<li>Veux-tu que je te montre Moi</li>
+			<li>Veux-tu que je te montre Bagheera</li>
+			<li>Veux-tu que je te montre Mowgli</li>
+			<li>Veux-tu que je te montre Junior</li>
+			<li>Veux-tu que je te montre Kaa</li>
+			<li>Veux-tu que je te montre Roi Louie</li>
+			<li>Veux-tu que je te montre Shanti</li>
+			<li>Veux-tu que je te montre Colonel Hathi</li>
+			<li>Veux-tu que je te montre Flunkey</li>
+			<li>Veux-tu que je te montre Rama</li>
+			<li>Veux-tu que je te montre Raksha</li>
+			<li>Veux-tu que je te montre Shere Khan</li>
+			<li>Veux-tu que je te montre les Singes</li>
+			<li>Veux-tu que je te montre Winifred</li>
+			<li>Veux-tu que je te montre les Vautours</li>
+			<li>Veux-tu que je te montre les Elephants</li>
+		</random>
+	</template>
+</category>
+
+
+
+<!---BALOO-->
+
+	<category>
+		<pattern>BALOO</pattern>
+			<template>
+			<random>
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/baloo-personnage-livre-jungle-01.jpg"/></li>
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/baloo-personnage-livre-jungle-05.jpg"/></li>
+
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/baloo-personnage-livre-jungle-03.jpg"/></li>
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/baloo-personnage-livre-jungle-02.jpg"/></li>
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/baloo-personnage-livre-jungle-07.jpg"/></li>
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/baloo-personnage-livre-jungle-06.jpg"/></li>
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/baloo-personnage-livre-jungle-09.jpg"/></li>
+
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/baloo-personnage-livre-jungle-10.jpg"/></li>
+		</random>
+		CA c'est moi! Regarde moi cette beauté.
+		</template>
+	</category>
+
+
+<category>
+	<pattern>MONTRE MOI BALOO</pattern>
+	<template><srai>BALOO</srai></template>
+</category>
+
+
+<category>
+	<pattern>OUI</pattern>
+	<that>VEUX-TU QUE JE CONTINUE</that>
+	<template>
+		<random>
+			<li><srai>BAGHEERA</srai> Photo suivante?</li>
+			<li><srai>BALOO</srai> Photo suivante?</li>
+			<li><srai>MOWGLI</srai> Photo suivante?</li>
+			<li><srai>JUNIOR</srai> Photo suivante?</li>
+			<li><srai>KAA</srai> Photo suivante?</li>
+			<li><srai>ROI LOUIE</srai> Photo suivante?</li>
+			<li><srai>SHANTI</srai> Photo suivante?</li>
+			<li><srai>COLONEL HATHI</srai> Photo suivante?</li>
+			<li><srai>FLUNKEY</srai> Photo suivante?</li>
+			<li><srai>RAMA</srai> Photo suivante?</li>
+			<li><srai>Raksha</srai> Photo suivante?</li>
+			<li><srai>SHERE KHAN</srai> Photo suivante?</li>
+			<li><srai>LES SINGES</srai> Photo suivante?</li>
+			<li><srai>WINIFRED</srai> Photo suivante?</li>
+			<li><srai>LES VAUTOURS</srai> Photo suivante?</li>
+			<li><srai>LES ELEPHANTS</srai> Photo suivante?</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>NON</pattern>
+	<that>VEUX-TU QUE JE CONTINUE</that>
+	<template>
+		<random>
+			<li>Veux-tu que je te montre Shere Khan?</li>
+			<li>Veux-tu que je te montre Moi</li>
+			<li>Veux-tu que je te montre Bagheera</li>
+			<li>Veux-tu que je te montre Mowgli</li>
+			<li>Veux-tu que je te montre Junior</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Kaa</li>
+			<li>Veux-tu que je te montre Roi Louie</li>
+			<li>Veux-tu que je te montre Shanti</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Colonel Hathi</li>
+			<li>Veux-tu que je te montre Flunkey</li>
+			<li>Veux-tu que je te montre Rama</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Raksha</li>
+			<li>Veux-tu que je te montre Shere Khan</li>
+			<li>Veux-tu que je te montre les Singes</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Winifred</li>
+			<li>Veux-tu que je te montre les Vautours</li>
+			<li>Veux-tu que je te montre les Elephants</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+		</random>
+	</template>
+</category>
+
+
+
+
+<category>
+	<pattern>OUI</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE SHERE KHAN</that>
+	<template><srai>SHERE KHAN</srai>Photo suivante?</template>
+</category>
+
+<category>
+	<pattern>NON</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE SHERE KHAN</that>
+	<template>
+		<random>
+		<li>Veux-tu que je te montre Shere Khan?</li>
+			<li>Veux-tu que je te montre Moi</li>
+			<li>Veux-tu que je te montre Bagheera</li>
+			<li>Veux-tu que je te montre Mowgli</li>
+			<li>Veux-tu que je te montre Junior</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Kaa</li>
+			<li>Veux-tu que je te montre Roi Louie</li>
+			<li>Veux-tu que je te montre Shanti</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Colonel Hathi</li>
+			<li>Veux-tu que je te montre Flunkey</li>
+			<li>Veux-tu que je te montre Rama</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Raksha</li>
+			<li>Veux-tu que je te montre Shere Khan</li>
+			<li>Veux-tu que je te montre les Singes</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Winifred</li>
+			<li>Veux-tu que je te montre les Vautours</li>
+			<li>Veux-tu que je te montre les Elephants</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+		</random>
+	</template>
+</category>
+
+
+
+<!---BAGHEERA-->
+
+
+	<category>
+		<pattern>BAGHEERA</pattern>
+		<template>
+			<random>
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/bagheera-personnage-livre-jungle-09.jpg"/></li>
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/bagheera-personnage-livre-jungle-01.jpg"/></li>
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/bagheera-personnage-livre-jungle-07.jpg"/></li>
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/bagheera-personnage-livre-jungle-06.jpg"/></li>
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/bagheera-personnage-livre-jungle-04.jpg"/></li>
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/bagheera-personnage-livre-jungle-03.jpg"/></li>
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/bagheera-personnage-livre-jungle-02.jpg"/></li>
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/bagheera-personnage-livre-jungle-08.jpg"/></li>
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/bagheera-personnage-livre-jungle-11.jpg"/></li>
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/bagheera-personnage-livre-jungle-10.jpg"/></li>
+
+		</random>
+		Ahh mon vieille ami! 
+		</template>
+	</category>
+
+	<category>
+		<pattern>MONTRE BAGHEERA</pattern>
+			<template><srai>BAGHEERA</srai></template>
+	</category>
+
+
+
+
+<category>
+	<pattern>NON</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE BAGHEERA</that>
+	<template>
+		<random>
+			<li>Veux-tu que je te montre Shere Khan?</li>
+			<li>Veux-tu que je te montre Moi</li>
+			<li>Veux-tu que je te montre Bagheera</li>
+			<li>Veux-tu que je te montre Mowgli</li>
+			<li>Veux-tu que je te montre Junior</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Kaa</li>
+			<li>Veux-tu que je te montre Roi Louie</li>
+			<li>Veux-tu que je te montre Shanti</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Colonel Hathi</li>
+			<li>Veux-tu que je te montre Flunkey</li>
+			<li>Veux-tu que je te montre Rama</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Raksha</li>
+			<li>Veux-tu que je te montre Shere Khan</li>
+			<li>Veux-tu que je te montre les Singes</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Winifred</li>
+			<li>Veux-tu que je te montre les Vautours</li>
+			<li>Veux-tu que je te montre les Elephants</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>OUI</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE BAGHEERA</that>
+	<template><srai>BAGHEERA</srai>Photo suivante?</template>
+</category>
+
+
+<category>
+	<pattern>OUI</pattern>
+	<that>PHOTO SUIVANTE</that>
+		<template>
+		<random>
+			<li><srai>BAGHEERA</srai> Photo suivante?</li>
+			<li><srai>BALOO</srai> Photo suivante?</li>
+			<li><srai>MOWGLI</srai> Photo suivante?</li>
+			<li><srai>JUNIOR</srai> Photo suivante?</li>
+			<li><srai>KAA</srai> Photo suivante?</li>
+			<li><srai>ROI LOUIE</srai> Photo suivante?</li>
+			<li><srai>SHANTI</srai> Photo suivante?</li>
+			<li><srai>COLONEL HATHI</srai> Photo suivante?</li>
+			<li><srai>FLUNKEY</srai> Photo suivante?</li>
+			<li><srai>RAMA</srai> Photo suivante?</li>
+			<li><srai>Raksha</srai> Photo suivante?</li>
+			<li><srai>SHERE KHAN</srai> Photo suivante?</li>
+			<li><srai>LES SINGES</srai> Photo suivante?</li>
+			<li><srai>WINIFRED</srai> Photo suivante?</li>
+			<li><srai>LES VAUTOURS</srai> Photo suivante?</li>
+			<li><srai>LES ELEPHANTS</srai> Photo suivante?</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>NON</pattern>
+	<that>PHOTO SUIVANTE</that>
+	<template>
+		<random>
+			<li>Veux-tu que je te montre Shere Khan?</li>
+			<li>Veux-tu que je te montre Moi</li>
+			<li>Veux-tu que je te montre Bagheera</li>
+			<li>Veux-tu que je te montre Mowgli</li>
+			<li>Veux-tu que je te montre Junior</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Kaa</li>
+			<li>Veux-tu que je te montre Roi Louie</li>
+			<li>Veux-tu que je te montre Shanti</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Colonel Hathi</li>
+			<li>Veux-tu que je te montre Flunkey</li>
+			<li>Veux-tu que je te montre Rama</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Raksha</li>
+			<li>Veux-tu que je te montre Shere Khan</li>
+			<li>Veux-tu que je te montre les Singes</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Winifred</li>
+			<li>Veux-tu que je te montre les Vautours</li>
+			<li>Veux-tu que je te montre les Elephants</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>NON</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE MOI</that>
+	<template>
+		<random>
+			<li>Veux-tu que je te montre Shere Khan?</li>
+			<li>Veux-tu que je te montre Moi</li>
+			<li>Veux-tu que je te montre Bagheera</li>
+			<li>Veux-tu que je te montre Mowgli</li>
+			<li>Veux-tu que je te montre Junior</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Kaa</li>
+			<li>Veux-tu que je te montre Roi Louie</li>
+			<li>Veux-tu que je te montre Shanti</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Colonel Hathi</li>
+			<li>Veux-tu que je te montre Flunkey</li>
+			<li>Veux-tu que je te montre Rama</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Raksha</li>
+			<li>Veux-tu que je te montre Shere Khan</li>
+			<li>Veux-tu que je te montre les Singes</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Winifred</li>
+			<li>Veux-tu que je te montre les Vautours</li>
+			<li>Veux-tu que je te montre les Elephants</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>OUI</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE MOI</that>
+	<template><srai>BALOO</srai>Photo suivante?</template>
+</category>
+
+<category>
+	<pattern>OUI</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE MOWGLI</that>
+	<template><srai>MOWGLI</srai>Photo suivante?</template>
+</category>
+
+<category>
+	<pattern>OUI</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE JUNIOR</that>
+	<template><srai>JUNIOR</srai>Photo suivante?</template>
+</category>
+
+<category>
+	<pattern>OUI</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE KAA</that>
+	<template><srai>KAA</srai>Photo suivante?</template>
+</category>
+
+<category>
+	<pattern>OUI</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE ROI LOUIE</that>
+	<template><srai>ROI LOUIE</srai>Photo suivante?</template>
+</category>
+
+<category>
+	<pattern>OUI</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE SHANTI</that>
+	<template><srai>SHANTI</srai>Photo suivante?</template>
+</category>
+
+<category>
+	<pattern>OUI</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE COlONEL HATHI</that>
+	<template><srai>COlONEL HATHI</srai>Photo suivante?</template>
+</category>
+
+<category>
+	<pattern>OUI</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE FLUNKEY</that>
+	<template><srai>FLUNKEY</srai>Photo suivante?</template>
+</category>
+
+<category>
+	<pattern>OUI</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE RAMA</that>
+	<template><srai>RAMA</srai>Photo suivante?</template>
+</category>
+
+<category>
+	<pattern>OUI</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE Raksha</that>
+	<template><srai>Raksha</srai>Photo suivante?</template>
+</category>
+
+<category>
+	<pattern>OUI</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE LES SINGES</that>
+	<template><srai>LES SINGES</srai>Photo suivante?</template>
+</category>
+
+<category>
+	<pattern>OUI</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE WINIFRED</that>
+	<template><srai>WINIFRED</srai>Photo suivante?</template>
+</category>
+
+<category>
+	<pattern>OUI</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE LES VAUTOURS</that>
+	<template><srai>LES VAUTOURS</srai>Photo suivante?</template>
+</category>
+
+<category>
+	<pattern>OUI</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE LES ELEPHANTS</that>
+	<template><srai>LES ELEPHANTS</srai>Photo suivante?</template>
+</category>
+
+
+<category>
+	<pattern>NON</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE MOWGLI</that>
+	<template>
+		<random>
+			<li>Veux-tu que je te montre Shere Khan?</li>
+			<li>Veux-tu que je te montre Moi</li>
+			<li>Veux-tu que je te montre Bagheera</li>
+			<li>Veux-tu que je te montre Mowgli</li>
+			<li>Veux-tu que je te montre Junior</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Kaa</li>
+			<li>Veux-tu que je te montre Roi Louie</li>
+			<li>Veux-tu que je te montre Shanti</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Colonel Hathi</li>
+			<li>Veux-tu que je te montre Flunkey</li>
+			<li>Veux-tu que je te montre Rama</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Raksha</li>
+			<li>Veux-tu que je te montre Shere Khan</li>
+			<li>Veux-tu que je te montre les Singes</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Winifred</li>
+			<li>Veux-tu que je te montre les Vautours</li>
+			<li>Veux-tu que je te montre les Elephants</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>NON</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE JUNIOR</that>
+	<template>
+		<random>
+			<li>Veux-tu que je te montre Shere Khan?</li>
+			<li>Veux-tu que je te montre Moi</li>
+			<li>Veux-tu que je te montre Bagheera</li>
+			<li>Veux-tu que je te montre Mowgli</li>
+			<li>Veux-tu que je te montre Junior</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Kaa</li>
+			<li>Veux-tu que je te montre Roi Louie</li>
+			<li>Veux-tu que je te montre Shanti</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Colonel Hathi</li>
+			<li>Veux-tu que je te montre Flunkey</li>
+			<li>Veux-tu que je te montre Rama</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Raksha</li>
+			<li>Veux-tu que je te montre Shere Khan</li>
+			<li>Veux-tu que je te montre les Singes</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Winifred</li>
+			<li>Veux-tu que je te montre les Vautours</li>
+			<li>Veux-tu que je te montre les Elephants</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>NON</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE KAA</that>
+	<template>
+		<random>
+			<li>Veux-tu que je te montre Shere Khan?</li>
+			<li>Veux-tu que je te montre Moi</li>
+			<li>Veux-tu que je te montre Bagheera</li>
+			<li>Veux-tu que je te montre Mowgli</li>
+			<li>Veux-tu que je te montre Junior</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Kaa</li>
+			<li>Veux-tu que je te montre Roi Louie</li>
+			<li>Veux-tu que je te montre Shanti</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Colonel Hathi</li>
+			<li>Veux-tu que je te montre Flunkey</li>
+			<li>Veux-tu que je te montre Rama</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Raksha</li>
+			<li>Veux-tu que je te montre Shere Khan</li>
+			<li>Veux-tu que je te montre les Singes</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Winifred</li>
+			<li>Veux-tu que je te montre les Vautours</li>
+			<li>Veux-tu que je te montre les Elephants</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>NON</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE ROI LOUIE</that>
+	<template>
+		<random>
+			<li>Veux-tu que je te montre Shere Khan?</li>
+			<li>Veux-tu que je te montre Moi</li>
+			<li>Veux-tu que je te montre Bagheera</li>
+			<li>Veux-tu que je te montre Mowgli</li>
+			<li>Veux-tu que je te montre Junior</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Kaa</li>
+			<li>Veux-tu que je te montre Roi Louie</li>
+			<li>Veux-tu que je te montre Shanti</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Colonel Hathi</li>
+			<li>Veux-tu que je te montre Flunkey</li>
+			<li>Veux-tu que je te montre Rama</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Raksha</li>
+			<li>Veux-tu que je te montre Shere Khan</li>
+			<li>Veux-tu que je te montre les Singes</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Winifred</li>
+			<li>Veux-tu que je te montre les Vautours</li>
+			<li>Veux-tu que je te montre les Elephants</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>NON</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE SHANTI</that>
+	<template>
+		<random>
+			<li>Veux-tu que je te montre Shere Khan?</li>
+			<li>Veux-tu que je te montre Moi</li>
+			<li>Veux-tu que je te montre Bagheera</li>
+			<li>Veux-tu que je te montre Mowgli</li>
+			<li>Veux-tu que je te montre Junior</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Kaa</li>
+			<li>Veux-tu que je te montre Roi Louie</li>
+			<li>Veux-tu que je te montre Shanti</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Colonel Hathi</li>
+			<li>Veux-tu que je te montre Flunkey</li>
+			<li>Veux-tu que je te montre Rama</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Raksha</li>
+			<li>Veux-tu que je te montre Shere Khan</li>
+			<li>Veux-tu que je te montre les Singes</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Winifred</li>
+			<li>Veux-tu que je te montre les Vautours</li>
+			<li>Veux-tu que je te montre les Elephants</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>NON</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE COLONEL HATHI</that>
+	<template>
+		<random>
+			<li>Veux-tu que je te montre Shere Khan?</li>
+			<li>Veux-tu que je te montre Moi</li>
+			<li>Veux-tu que je te montre Bagheera</li>
+			<li>Veux-tu que je te montre Mowgli</li>
+			<li>Veux-tu que je te montre Junior</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Kaa</li>
+			<li>Veux-tu que je te montre Roi Louie</li>
+			<li>Veux-tu que je te montre Shanti</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Colonel Hathi</li>
+			<li>Veux-tu que je te montre Flunkey</li>
+			<li>Veux-tu que je te montre Rama</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Raksha</li>
+			<li>Veux-tu que je te montre Shere Khan</li>
+			<li>Veux-tu que je te montre les Singes</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Winifred</li>
+			<li>Veux-tu que je te montre les Vautours</li>
+			<li>Veux-tu que je te montre les Elephants</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>NON</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE FLUNKEY</that>
+	<template>
+		<random>
+			<li>Veux-tu que je te montre Shere Khan?</li>
+			<li>Veux-tu que je te montre Moi</li>
+			<li>Veux-tu que je te montre Bagheera</li>
+			<li>Veux-tu que je te montre Mowgli</li>
+			<li>Veux-tu que je te montre Junior</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Kaa</li>
+			<li>Veux-tu que je te montre Roi Louie</li>
+			<li>Veux-tu que je te montre Shanti</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Colonel Hathi</li>
+			<li>Veux-tu que je te montre Flunkey</li>
+			<li>Veux-tu que je te montre Rama</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Raksha</li>
+			<li>Veux-tu que je te montre Shere Khan</li>
+			<li>Veux-tu que je te montre les Singes</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Winifred</li>
+			<li>Veux-tu que je te montre les Vautours</li>
+			<li>Veux-tu que je te montre les Elephants</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>NON</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE RAMA</that>
+	<template>
+		<random>
+			<li>Veux-tu que je te montre Shere Khan?</li>
+			<li>Veux-tu que je te montre Moi</li>
+			<li>Veux-tu que je te montre Bagheera</li>
+			<li>Veux-tu que je te montre Mowgli</li>
+			<li>Veux-tu que je te montre Junior</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Kaa</li>
+			<li>Veux-tu que je te montre Roi Louie</li>
+			<li>Veux-tu que je te montre Shanti</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Colonel Hathi</li>
+			<li>Veux-tu que je te montre Flunkey</li>
+			<li>Veux-tu que je te montre Rama</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Raksha</li>
+			<li>Veux-tu que je te montre Shere Khan</li>
+			<li>Veux-tu que je te montre les Singes</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Winifred</li>
+			<li>Veux-tu que je te montre les Vautours</li>
+			<li>Veux-tu que je te montre les Elephants</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>NON</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE RAKSHA</that>
+	<template>
+		<random>
+			<li>Veux-tu que je te montre Shere Khan?</li>
+			<li>Veux-tu que je te montre Moi</li>
+			<li>Veux-tu que je te montre Bagheera</li>
+			<li>Veux-tu que je te montre Mowgli</li>
+			<li>Veux-tu que je te montre Junior</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Kaa</li>
+			<li>Veux-tu que je te montre Roi Louie</li>
+			<li>Veux-tu que je te montre Shanti</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Colonel Hathi</li>
+			<li>Veux-tu que je te montre Flunkey</li>
+			<li>Veux-tu que je te montre Rama</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Raksha</li>
+			<li>Veux-tu que je te montre Shere Khan</li>
+			<li>Veux-tu que je te montre les Singes</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Winifred</li>
+			<li>Veux-tu que je te montre les Vautours</li>
+			<li>Veux-tu que je te montre les Elephants</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>NON</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE LES SINGES</that>
+	<template>
+		<random>
+			<li>Veux-tu que je te montre Shere Khan?</li>
+			<li>Veux-tu que je te montre Moi</li>
+			<li>Veux-tu que je te montre Bagheera</li>
+			<li>Veux-tu que je te montre Mowgli</li>
+			<li>Veux-tu que je te montre Junior</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Kaa</li>
+			<li>Veux-tu que je te montre Roi Louie</li>
+			<li>Veux-tu que je te montre Shanti</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Colonel Hathi</li>
+			<li>Veux-tu que je te montre Flunkey</li>
+			<li>Veux-tu que je te montre Rama</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Raksha</li>
+			<li>Veux-tu que je te montre Shere Khan</li>
+			<li>Veux-tu que je te montre les Singes</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Winifred</li>
+			<li>Veux-tu que je te montre les Vautours</li>
+			<li>Veux-tu que je te montre les Elephants</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>NON</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE WINIFRED</that>
+	<template>
+		<random>
+			<li>Veux-tu que je te montre Shere Khan?</li>
+			<li>Veux-tu que je te montre Moi</li>
+			<li>Veux-tu que je te montre Bagheera</li>
+			<li>Veux-tu que je te montre Mowgli</li>
+			<li>Veux-tu que je te montre Junior</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Kaa</li>
+			<li>Veux-tu que je te montre Roi Louie</li>
+			<li>Veux-tu que je te montre Shanti</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Colonel Hathi</li>
+			<li>Veux-tu que je te montre Flunkey</li>
+			<li>Veux-tu que je te montre Rama</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Raksha</li>
+			<li>Veux-tu que je te montre Shere Khan</li>
+			<li>Veux-tu que je te montre les Singes</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Winifred</li>
+			<li>Veux-tu que je te montre les Vautours</li>
+			<li>Veux-tu que je te montre les Elephants</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>NON</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE LES VATOURS</that>
+	<template>
+		<random>
+			<li>Veux-tu que je te montre Shere Khan?</li>
+			<li>Veux-tu que je te montre Moi</li>
+			<li>Veux-tu que je te montre Bagheera</li>
+			<li>Veux-tu que je te montre Mowgli</li>
+			<li>Veux-tu que je te montre Junior</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Kaa</li>
+			<li>Veux-tu que je te montre Roi Louie</li>
+			<li>Veux-tu que je te montre Shanti</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Colonel Hathi</li>
+			<li>Veux-tu que je te montre Flunkey</li>
+			<li>Veux-tu que je te montre Rama</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Raksha</li>
+			<li>Veux-tu que je te montre Shere Khan</li>
+			<li>Veux-tu que je te montre les Singes</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Winifred</li>
+			<li>Veux-tu que je te montre les Vautours</li>
+			<li>Veux-tu que je te montre les Elephants</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>NON</pattern>
+	<that>VEUX-TU QUE JE TE MONTRE LES ELEPHANTS</that>
+	<template>
+		<random>
+			<li>Veux-tu que je te montre Shere Khan?</li>
+			<li>Veux-tu que je te montre Moi</li>
+			<li>Veux-tu que je te montre Bagheera</li>
+			<li>Veux-tu que je te montre Mowgli</li>
+			<li>Veux-tu que je te montre Junior</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Kaa</li>
+			<li>Veux-tu que je te montre Roi Louie</li>
+			<li>Veux-tu que je te montre Shanti</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Colonel Hathi</li>
+			<li>Veux-tu que je te montre Flunkey</li>
+			<li>Veux-tu que je te montre Rama</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Raksha</li>
+			<li>Veux-tu que je te montre Shere Khan</li>
+			<li>Veux-tu que je te montre les Singes</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+			<li>Veux-tu que je te montre Winifred</li>
+			<li>Veux-tu que je te montre les Vautours</li>
+			<li>Veux-tu que je te montre les Elephants</li>
+			<li>Veux-tu jouer au devinette avec moi</li>
+		</random>
+	</template>
+</category>
+
+<!---MOWGLI-->
+
+	<category>
+		<pattern>MOWGLI</pattern>
+			<template>
+				<random>
+				<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/mowgli-personnage-livre-jungle-02.jpg"/></li>
+
+				<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/mowgli-personnage-livre-jungle-09.jpg"/></li>
+
+				<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/mowgli-personnage-livre-jungle-08.jpg"/></li>
+
+
+				<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/mowgli-personnage-livre-jungle-06.jpg"/></li>
+
+				<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/mowgli-personnage-livre-jungle-01.jpg"/></li>
+
+				<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/mowgli-personnage-livre-jungle-14.jpg"/></li>
+
+				<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/mowgli-personnage-livre-jungle-03.jpg"/></li>
+
+				<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/mowgli-personnage-livre-jungle-05.jpg"/></li>
+		
+				<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/mowgli-personnage-livre-jungle-02.jpg"/></li>
+				
+				<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/mowgli-personnage-livre-jungle-04.jpg"/></li>
+			
+				<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/mowgli-personnage-livre-jungle-13.jpg"/></li>
+				
+				<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/mowgli-personnage-livre-jungle-12.jpg"/></li>
+				
+				<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/mowgli-personnage-livre-jungle-11.jpg"/></li>
+				
+				<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/mowgli-personnage-livre-jungle-10.jpg"/></li>
+			</random>
+			Ah mon petit gars!
+			</template>
+		</category>
+
+
+	<category>
+		<pattern>MONTRE MOWGLI</pattern>
+			<template><srai>MOWGLI</srai></template>
+	</category>
+
+
+<!---JUNIOR-->
+
+	<category>
+		<pattern>JUNIOR</pattern>
+		<template>
+		<random>
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2016/03/junior-personnage-le-livre-de-la-jungle-03.jpg"/></li>
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2016/03/junior-personnage-le-livre-de-la-jungle-01.jpg"/></li>
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2016/03/junior-personnage-le-livre-de-la-jungle-05.jpg"/></li>
+
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2016/03/junior-personnage-le-livre-de-la-jungle-02.jpg"/></li>
+		</random>
+		Sacré petit éléphant!
+		</template>
+	</category>
+
+	<category>
+		<pattern>MONTRE JUNIOR</pattern>
+			<template><srai>JUNIOR</srai></template>
+	</category>
+
+
+<!---KAA-->
+
+<category>
+		<pattern>KAA</pattern>
+		<template> 
+		<random>
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/kaa-personnage-livre-jungle-07.jpg"/></li>
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/kaa-personnage-livre-jungle-01.jpg"/></li>
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/kaa-personnage-livre-jungle-08.jpg"/></li>
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/kaa-personnage-livre-jungle-05.jpg"/></li>
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/kaa-personnage-livre-jungle-04.jpg"/></li>
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/kaa-personnage-livre-jungle-03.jpg"/></li>
+
+		</random>
+		Sacrée Boa ! Attention au yeuuxx!
+		</template>
+	</category>
+
+	<category>
+		<pattern>MONTRE MOI KAA</pattern>
+			<template><srai>KAA</srai></template>
+	</category>
+
+
+<!---ROILOUIE-->
+
+<category>
+		<pattern>ROI LOUIE</pattern>
+		<template> 
+		<random>
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/roi-louie-personnage-livre-jungle-01.jpg"/></li>
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/roi-louie-personnage-livre-jungle-06.jpg"/></li>
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/roi-louie-personnage-livre-jungle-05.jpg"/></li>
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/roi-louie-personnage-livre-jungle-04.jpg"/></li>
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/roi-louie-personnage-livre-jungle-03.jpg"/></li>
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/roi-louie-personnage-livre-jungle-02.jpg"/></li>
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/roi-louie-personnage-livre-jungle-01.jpg"/></li>
+		</random>
+		Il est trop curieux sur le monde des humains et il a un sacrée problème avec les feu rouge ahahah!
+		</template>
+	</category>
+
+	<category>
+		<pattern>* ROILOUIE</pattern>
+			<template><srai>ROILOUIE</srai></template>
+	</category>
+
+<!---SHANTI-->
+<category>
+		<pattern>SHANTI</pattern>
+		<template> 
+		<random>
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2016/03/shanti-personnage-le-livre-de-la-jungle-02.jpg"/></li>
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2016/03/shanti-personnage-le-livre-de-la-jungle-04.jpg"/></li>
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2016/03/shanti-personnage-le-livre-de-la-jungle-02.jpg"/></li>
+		</random>
+		L'amoureuse de Mowgli!
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>MONTRE MOI SHANTI</pattern>
+			<template><srai>SHANTI</srai></template>
+	</category>
+
+
+<!---COLONEL HATHI-->
+<category>
+		<pattern>COLONEL HATHI</pattern>
+		<template> 
+		<random>
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2016/03/colonel-hathi-personnage-le-livre-de-la-jungle-02.jpg"/></li>
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2016/03/colonel-hathi-personnage-le-livre-de-la-jungle-04.jpg"/></li>
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2016/03/colonel-hathi-personnage-le-livre-de-la-jungle-03.jpg"/></li>
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2016/03/colonel-hathi-personnage-le-livre-de-la-jungle-02.jpg"/></li>
+
+		</random>
+		C'est un éléphant autoritaire! Avec sa petite branche au bout de sa trompe pour donner les ordres!! Attention il est très pointilleux!
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>MONTRE MOI COLONEL HATHI</pattern>
+			<template><srai>COLONEL HATHI</srai></template>
+	</category>
+
+
+<!---FLUNKEY-->
+<category>
+		<pattern>FLUNKEY</pattern>
+		<template> 
+			<img src="https://www.animationsource.org/sites_content/jungle_book/upload/fanchars/pic_detail574c415aa806f.png"/>
+			Flunky est le second du Roi Louie!
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>MONTRE MOI FLUNKEY</pattern>
+			<template><srai>FLUNKEY</srai></template>
+	</category>
+
+
+<!---RAMA-->
+
+<category>
+		<pattern>RAMA</pattern>
+		<template>
+		<random>
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2016/03/rama-personnage-le-livre-de-la-jungle-01.jpg"/></li>	
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2016/03/rama-personnage-le-livre-de-la-jungle-03.jpg"/></li>	
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2016/03/rama-personnage-le-livre-de-la-jungle-02.jpg"/></li>	
+		</random>
+		Le père adoptif du petit Mowgli. Il l’élève aux côtés de ses propres louveteaux.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>MONTRE MOI RAMA</pattern>
+			<template><srai>RAMA</srai></template>
+	</category>
+
+
+<!---RAKSHA-->
+<category>
+		<pattern>RAKSHA</pattern>
+		<template><img src="https://www.animationsource.org/sites_content/jungle_book/upload/fanchars/pic_detail574c2e319bc3c.png"/> Raksha est la mère adoptive de Mowgli.
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>MONTRE MOI Raksha</pattern>
+			<template><srai>Raksha</srai></template>
+	</category>
+
+
+
+<!---SHERE KHAN-->
+<category>
+		<pattern>SHERE KHAN</pattern>
+		<template>
+		<random>
+			
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/shere-khan-personnage-livre-jungle-05.jpg"/></li>	
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/shere-khan-personnage-livre-jungle-04.jpg"/></li>	
+		</random>
+		Le voilà! Qu'es ce qu'il est moche!
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>MONTRE MOI SHERE KHAN</pattern>
+			<template><srai>SHERE KHAN</srai></template>
+	</category>
+
+
+<!---LES SINGES-->
+<category>
+		<pattern>LES SINGES</pattern>
+		<template> AH NON les singes ne souhaite pas qu'on diffuse ses photos! et PUIS IL Y EN A BEAUCOUP TROP ! Fais attention a tes affaires !! Ils adorent faire des farces et faire les interressants devant leur bande d'amis singes! 
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>MONTRE MOI LES SINGES</pattern>
+			<template><srai>LES SINGES</srai></template>
+	</category>
+
+<!---WINIFRED-->
+
+<category>
+		<pattern>WINIFRED</pattern>
+		<template> 
+
+		<random>
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2016/03/winifred-personnage-le-livre-de-la-jungle-04.jpg"/></li>	
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2016/03/winifred-personnage-le-livre-de-la-jungle-02.jpg"/></li>	
+
+		</random>
+		C'est l’épouse du Colonel Hathi et la mère de Junior. Elle est la seule qui remet en cause les ordres de son mari!
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>MONTRE MOI WINIFRED</pattern>
+			<template><srai>WINIFRED</srai></template>
+	</category>
+
+<!---LES VAUTOURS-->
+<category>
+<pattern>LES VAUTOURS</pattern>
+		<template> 
+		<random>
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2016/03/vautour-personnage-le-livre-de-la-jungle-01.jpg"/></li>	
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2016/03/vautour-personnage-le-livre-de-la-jungle-08.jpg"/></li>	
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2016/03/vautour-personnage-le-livre-de-la-jungle-07.jpg"/></li>	
+
+
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2016/03/vautour-personnage-le-livre-de-la-jungle-06.jpg"/></li>	
+		</random>
+		Les vautours sont perchés sur leur arbre mort et ne savent pas trop quoi faire pour s’occuper. Au nombre de quatre, il y a le petit vautour chauve (Buzzie), un grand vautour avec des cheveux devant ses yeux (Dizzy), un vautour blond (Flaps) et un vautour brun (Ziggy).
+
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>MONTRE MOI LES VAUTOURS</pattern>
+			<template><srai>LES VAUTOURS</srai></template>
+	</category>
+
+
+<!---LES ELEPHANTS-->
+
+<category>
+		<pattern>LES ELEPHANTS</pattern>
+		<template> Désolé,les éléphants ne souhaitent pas qu'on diffuse ses photos! et PUIS IL Y EN A BEAUCOUP TROP ! 
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>MONTRE MOI LES ELEPHANTS</pattern>
+			<template><srai>LES ELEPHANTS</srai></template>
+	</category>
+
+<!---PERDU-->
+<category>
+	<pattern>QUEL PERSONNAGE</pattern>
+	<template>Je peut te présenter: les Elephants, Mowgli, Bagheera, Moi, Les Vautours, Winifred, Les Singes, Shere Khan, Raksha, Rama, Flunkey, Colonel Hathi, Shanti, Roi Louie, Kaa et Junior </template>
+</category>
+
+<category>
+	<pattern>LEQUEL</pattern>
+	<template><srai>QUEL PERSONNAGE</srai></template>
+</category>
+
+</aiml>

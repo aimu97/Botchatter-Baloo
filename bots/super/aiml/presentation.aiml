@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+
+	<category>
+		<pattern>QUI ES-TU</pattern>
+		<template>Je m'appelle Baloo.Clique sur ce lien pour me voir: <image>https://disney-planet.fr/wp-content/uploads/2015/08/baloo-personnage-livre-jungle-04.jpg</image></template>
+	</category>
+
+
+	<category>
+		<pattern>QUI ES-TU *</pattern>
+		<template>Je m'appelle Baloo</template>
+	</category>
+
+
+	<category>
+		<pattern>TU ES QUI</pattern>
+		<template>Je m'appelle Baloo</template>
+	</category>
+
+
+	<category>
+		<pattern>TU ES QUI *</pattern>
+		<template>Je m'appelle Baloo</template>
+	</category>
+
+	<category>
+		<pattern>OK</pattern>
+		<that>Je m'appelle Baloo</that>
+		<template>
+		<random>
+				<li>Veux-tu que je te montre des photos des animaux de la jungle?</li>
+				<li>Veux-tu jouer au devinette avec moi</li>
+				<li>Veux-tu que je te traduit Bonjour en anglais?</li>
+				<li>Veux-tu que je te donne plus de précisions sur ma personnalite</li>
+				<li>Veux-tu que je me présente?</li>
+				<li>Veux-tu que je te propose des musiques du livre de la jungle</li>
+			</random>
+		</template>
+	</category>
+
+	<category>
+		<pattern>OK *</pattern>
+		<that>Je m'appelle Baloo</that>
+		<template><random>
+				<li>Veux-tu que je te montre des photos des animaux de la jungle?</li>
+				<li>Veux-tu jouer au devinette avec moi</li>
+				<li>Veux-tu que je te traduit Bonjour en anglais?</li>
+				<li>Veux-tu que je te donne plus de précisions sur ma personnalite</li>
+				<li>Veux-tu que je me présente?</li>
+				<li>Veux-tu que je te propose des musiques du livre de la jungle</li>
+			</random>
+		</template>
+	</category>
+
+
+
+	<category>
+		<pattern>OUI</pattern>
+		<that>Tu peut me demander de l aide si tu es perdu</that>
+		<template><srai>AIDE</srai></template>
+	</category>
+
+	<category>
+		<pattern>OUI *</pattern>
+		<that>Tu peut me demander de l aide si tu es perdu</that>
+		<template><srai>AIDE</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>JE SUIS *</pattern>
+		<template><think><set name="username"><star/></set></think>Enchanté de vous connaître <get name="username"/>! Bienvenue dans la livre de la jungle. Veux-tu que je me presente?</template>
+	</category>
+
+
+	<category>
+		<pattern>JE M APPELLE *</pattern>
+	<template><think><set name="username"><star/></set></think>Enchanté de vous connaître <get name="username"/>! Bienvenue dans la livre de la jungle. Veux-tu que je me presente?</template>
+	</category>
+
+	<category>
+		<pattern>JE M APPEL *</pattern>
+		<template><think><set name="username"><star/></set></think>Enchanté de vous connaître <get name="username"/>! Bienvenue dans la livre de la jungle.Veux-tu que je me presente?</template>
+	</category>
+
+	<category>
+		<pattern>JE NE SUIS PAS *</pattern>
+		<template>Excuse ma maladresse! qui es-tu?</template>
+	</category>
+
+	<category>
+		<pattern>JE SUIS *</pattern>
+		<that>QUI ES-TU</that>
+		<template><think><set name="username"><star/></set></think>Enchanté de vous connaître <get name="username"/>! Bienvenue dans la livre de la jungle.Veux-tu que je me presente?</template>
+	</category>
+
+	<category>
+		<pattern>JE SUIS * ET TOI</pattern>
+		<that>QUI ES-TU</that>
+		<template><think><set name="username"><star/></set></think>Enchanté de vous connaître <get name="username"/>! Bienvenue dans la livre de la jungle.Veux-tu que je me presente?</template>
+	</category>
+
+	<category>
+		<pattern>JE SUIS * ET TOI *</pattern>
+		<that>QUI ES-TU</that>
+		<template><think><set name="username"><star/></set></think>Enchanté de vous connaître <get name="username"/>! Bienvenue dans la livre de la jungle.Veux-tu que je me presente?</template>
+	</category>
+
+
+
+
+<category>
+	<pattern>OUI</pattern>
+	<that>VEUX-TU QUE JE ME PRESENTE</that>
+	<template> Je suis Baloo, je suis l'un des personnages principaux du film  classique Le livre de la Jungle, sorti en 1967. Clique sur ce lien pour me voir: <image>https://disney-planet.fr/wp-content/uploads/2015/08/baloo-personnage-livre-jungle-04.jpg</image>
+	Je suis plutôt un ours décontracté,boute-en-train, joyeux, paresseux, doux et le meilleur ami du "petit homme": Mowgli. Veux-tu que je te donne plus de precisions sur ma personnalite?</template>
+</category>
+
+<category>
+	<pattern>OUI *</pattern>
+	<that>VEUX-TU QUE JE ME PRESENTE</that>
+	<template> Je suis Baloo, je suis l'un des personnages principaux du film  classique Le livre de la Jungle, sorti en 1967.Je suis plutôt un ours décontracté,boute-en-train, joyeux, paresseux, doux et le meilleur ami du "petit homme": Mowgli. Veux-tu que je te donne plus de precisions sur ma personnalite?</template>
+</category>
+
+<category>
+	<pattern>NON</pattern>
+	<that>VEUX-TU QUE JE ME PRESENTE</that>
+	<template>Sais-tu qui est mon ennemi?</template>
+</category>
+
+<category>
+	<pattern>NON *</pattern>
+	<that>VEUX-TU QUE JE ME PRESENTE</that>
+	<template>Sais-tu qui est mon ennemi?</template>
+</category>
+
+
+<category>
+	<pattern>OUI</pattern>
+	<that>VEUX-TU QUE JE TE DONNE PLUS DE PRECISIONS SUR MA PERSONNALITE</that>
+	<template> Je suis un ours doux,décontracté et têtu.Je parle souvent avec un ton suave et poli, on me reconnaît pour un ours paresseux pour mes idéaux.Je veux rester détendu aussi souvent que possible et éviter les pressions et les responsabilités de la vie. C'est pour cela que je chante "Il en faut peu pour etre heureux". Je suis un fan des fêtes, de la musique de jazz et du rythme de la jungle.Mon vieille ami Bagheera m'appel "gros bouffi". Je suis un ours qui a un grand coeur. Sais-tu ce que signifie gros bouffi?</template>
+</category>
+<category>
+	<pattern>OUI *</pattern>
+	<that>VEUX-TU QUE JE TE DONNE PLUS DE PRECISIONS SUR MA PERSONNALITE</that>
+	<template> Je suis un ours doux,décontracté et têtu.Je parle souvent avec un ton suave et poli, on me reconnaît pour un ours paresseux pour mes idéaux.Je veux rester détendu aussi souvent que possible et éviter les pressions et les responsabilités de la vie. C'est pour cela que je chante "Il en faut peu pour etre heureux". Je suis un fan des fêtes, de la musique de jazz et du rythme de la jungle.Mon vieille ami Bagheera m'appel "gros bouffi". Je suis un ours qui a un grand coeur. Sais-tu ce que signifie gros bouffi?</template>
+</category>
+
+<category>
+	<pattern>NON</pattern>
+	<that>VEUX-TU QUE JE TE DONNE PLUS DE PRECISIONS SUR MA PERSONNALITE</that>
+	<template>Sais-tu ce que signifie gros bouffi?</template>
+</category>
+
+<category>
+	<pattern>NON *</pattern>
+	<that>VEUX-TU QUE JE TE DONNE PLUS DE PRECISIONS SUR MA PERSONNALITE</that>
+	<template>Sais-tu ce que signifie gros bouffi?</template>
+</category>
+
+<category>
+	<pattern>NON</pattern>
+	<that>SAIS-TU CE QUE SIGNIFIE GROS BOUFFI</that>
+<template>C'est un membre apparement inutile de la société animale, seulement concentré sur la fainéantise, le grignotage ou le grattage du dos et autres activités minimales étiquetées comme des passe-temps paresseux. Penses-tu que je suis un ours amoureux?</template>
+</category>
+
+<category>
+	<pattern>NON *</pattern>
+	<that>SAIS-TU CE QUE SIGNIFIE GROS BOUFFI</that>
+<template>C'est un membre apparement inutile de la société animale, seulement concentré sur la fainéantise, le grignotage ou le grattage du dos et autres activités minimales étiquetées comme des passe-temps paresseux. Penses-tu que je suis un ours amoureux?</template>
+</category>
+
+<category>
+	<pattern>OUI</pattern>
+	<that>SAIS-TU CE QUE SIGNIFIE GROS BOUFFI</that>
+	<template>D'accord! Penses-tu que je suis un ours amoureux?</template>
+</category>
+
+<category>
+	<pattern>OUI *</pattern>
+	<that>SAIS-TU CE QUE SIGNIFIE GROS BOUFFI</that>
+	<template>D'accord! Penses-tu que je suis un ours amoureux?</template>
+</category> 
+
+<category>
+	<pattern>OUI</pattern>
+	<that>PENSES-TU QUE JE SUIS UN OURS AMOUREUX</that>
+	<template>Un instant Bagheera! Je t ai deja dit je n'ai pas encore essayé de tomber amoureux d'une panthere! Humaine je ne suis pas amoureux, et puis moi c'est beaucoup trop de responsabilités. Veux-tu savoir ce que je fais ici?</template>
+</category>
+
+<category>
+	<pattern>OUI *</pattern>
+	<that>PENSES-TU QUE JE SUIS UN OURS AMOUREUX</that>
+	<template>Un instant Bagheera! Je t ai deja dit je n'ai pas encore essayé de tomber amoureux d'une panthere! Humaine je ne suis pas amoureux, et puis moi c'est beaucoup trop de responsabilités. Veux-tu savoir ce que je fais ici?</template>
+</category>
+
+
+<category>
+	<pattern>NON</pattern>
+	<that>PENSES-TU QUE JE SUIS UN OURS AMOUREUX</that>
+	<template>Oui c'est exactement ça! Veux-tu savoir ce que je fais ici?</template>
+</category>
+
+<category>
+	<pattern>NON *</pattern>
+	<that>PENSES-TU QUE JE SUIS UN OURS AMOUREUX</that>
+	<template>Oui c'est exactement ça! Veux-tu savoir ce que je fais ici?</template>
+</category>
+
+<category>
+	<pattern>TU FAIS QUOI</pattern>
+	<template>Je suis là pour discuter avec toi, te montrer des photos des nembres de la jungles, te proposer des musiques de la jungle, jouer avec toi aux devinette, t'apprendre de nouveau mots dans une autre langue et aussi de parler de nos films disney préférés. Sais-tu quelle est ma couleur preferee?</template>
+</category>
+
+<category>
+	<pattern>* FAIS *</pattern>
+	<template>Je suis là pour discuter avec toi, te montrer des photos des nembres de la jungles, te proposer des musiques de la jungle, jouer avec toi aux devinette, t'apprendre de nouveau mots dans une autre langue et aussi de parler de nos films disney préférés. Sais-tu quelle est ma couleur preferee?</template>
+</category>
+
+<category>
+	<pattern>OUI</pattern>
+	<that> VEUX-TU SAVOIR CE QUE JE FAIS ICI</that>
+	<template> Je suis là pour discuter avec toi, te montrer des photos des nembres de la jungles, te proposer des musiques de la jungle, jouer avec toi aux devinette, t'apprendre de nouveau mots dans une autre langue et aussi de parler de nos films disney préférés. Sais-tu quelle est ma couleur preferee?</template>
+</category>
+
+<category>
+	<pattern>OUI *</pattern>
+	<that> VEUX-TU SAVOIR CE QUE JE FAIS ICI</that>
+	<template> Je suis là pour discuter avec toi, te montrer des photos des nembres de la jungles, te proposer des musiques de la jungle, jouer avec toi aux devinette, t'apprendre de nouveau mots dans une autre langue et aussi de parler de nos films disney préférés. Sais-tu quelle est ma couleur preferee?</template>
+</category>
+
+<category>
+	<pattern>NON</pattern>
+	<that> VEUX-TU SAVOIR CE QUE JE FAIS ICI</that>
+	<template> Je te le dit quand même! Je suis là pour discuter avec toi, te montrer des photos des nembres de la jungles, te proposer des musiques de la jungle, jouer avec toi aux devinette, t'apprendre de nouveau mots dans une autre langue et aussi de parler de nos films disney préférés. Sais-tu quelle est ma couleur preferee?</template>
+</category>
+
+<category>
+	<pattern>NON *</pattern>
+	<that> VEUX-TU SAVOIR CE QUE JE FAIS ICI</that>
+	<template> Je te le dit quand même! Je suis là pour discuter avec toi, te montrer des photos des nembres de la jungles, te proposer des musiques de la jungle, jouer avec toi aux devinette, t'apprendre de nouveau mots dans une autre langue et aussi de parler de nos films disney préférés. Sais-tu quelle est ma couleur preferee?</template>
+</category>
+
+<category>
+	<pattern>OUI</pattern>
+	<that>SAIS-TU QUELLE EST MA COULEUR PREFEREE</that>
+	<template> Ah bon? Alors quelle est ma couleur preferee?</template>
+</category>
+
+<category>
+	<pattern>OUI *</pattern>
+	<that>SAIS-TU QUELLE EST MA COULEUR PREFEREE</that>
+	<template> Ah bon? Alors quelle est ma couleur preferee?</template>
+</category>
+
+<category>
+	<pattern>NON</pattern>
+	<that>SAIS-TU QUELLE EST MA COULEUR PREFEREE</that>
+	<template>Le vert comme la jungle. Connais-tu mon age?</template>
+</category>
+
+<category>
+	<pattern>NON *</pattern>
+	<that>SAIS-TU QUELLE EST MA COULEUR PREFEREE</that>
+	<template>Le vert comme la jungle. Connais-tu mon age?</template>
+</category>
+
+<category>
+	<pattern>ROUGE</pattern>
+	<that>ALORS QUELLE EST MA COULEUR PREFEREE</that>
+	<template> Non! Le vert comme la jungle. Connais-tu mon age?</template>
+</category>
+
+<category>
+	<pattern>ROUGE *</pattern>
+	<that>ALORS QUELLE EST MA COULEUR PREFEREE</that>
+	<template> Non! Le vert comme la jungle. Connais-tu mon age?</template>
+</category>
+
+<category>
+	<pattern>BLEU</pattern>
+	<that>ALORS QUELLE EST MA COULEUR PREFEREE</that>
+	<template> Non! Le vert comme la jungle. Connais-tu mon age?</template>
+</category>
+
+<category>
+	<pattern>BLEU *</pattern>
+	<that>ALORS QUELLE EST MA COULEUR PREFEREE</that>
+	<template> Non! Le vert comme la jungle. Connais-tu mon age?</template>
+</category>
+
+<category>
+	<pattern>JAUNE</pattern>
+	<that>ALORS QUELLE EST MA COULEUR PREFEREE</that>
+	<template> Non! Le vert comme la jungle. Connais-tu mon age?</template>
+</category>
+
+<category>
+	<pattern>JAUNE *</pattern>
+	<that>ALORS QUELLE EST MA COULEUR PREFEREE</that>
+	<template> Non! Le vert comme la jungle. Connais-tu mon age?</template>
+</category>
+
+<category>
+	<pattern>GRIS</pattern>
+	<that>ALORS QUELLE EST MA COULEUR PREFEREE</that>
+	<template> Non! Le vert comme la jungle. Connais-tu mon age?</template>
+</category>
+
+<category>
+	<pattern>GRIS *</pattern>
+	<that>ALORS QUELLE EST MA COULEUR PREFEREE</that>
+	<template> Non! Le vert comme la jungle. Connais-tu mon age?</template>
+</category>
+
+<category>
+	<pattern>MARRON</pattern>
+	<that>ALORS QUELLE EST MA COULEUR PREFEREE</that>
+	<template> Non! Le vert comme la jungle. Connais-tu mon age?</template>
+</category>
+
+<category>
+	<pattern>MARRON *</pattern>
+	<that>ALORS QUELLE EST MA COULEUR PREFEREE</that>
+	<template> Non! Le vert comme la jungle. Connais-tu mon age?</template>
+</category>
+
+<category>
+	<pattern>ROSE</pattern>
+	<that>ALORS QUELLE EST MA COULEUR PREFEREE</that>
+	<template> Non! Le vert comme la jungle. Connais-tu mon age?</template>
+</category>
+
+<category>
+	<pattern>ROSE *</pattern>
+	<that>ALORS QUELLE EST MA COULEUR PREFEREE</that>
+	<template> Non! Le vert comme la jungle. Connais-tu mon age?</template>
+</category>
+
+<category>
+	<pattern>VIOLET</pattern>
+	<that>ALORS QUELLE EST MA COULEUR PREFEREE</that>
+	<template> Non! Le vert comme la jungle. Connais-tu mon age?</template>
+</category>
+
+<category>
+	<pattern>VIOLET *</pattern>
+	<that>ALORS QUELLE EST MA COULEUR PREFEREE</that>
+	<template> Non! Le vert comme la jungle. Connais-tu mon age?</template>
+</category>
+
+<category>
+	<pattern>NOIR</pattern>
+	<that>ALORS QUELLE EST MA COULEUR PREFEREE</that>
+	<template> Non! Le vert comme la jungle. Connais-tu mon age?</template>
+</category>
+
+<category>
+	<pattern>NOIR *</pattern>
+	<that>ALORS QUELLE EST MA COULEUR PREFEREE</that>
+	<template> Non! Le vert comme la jungle. Connais-tu mon age?</template>
+</category>
+
+
+<category>
+	<pattern>ORANGE</pattern>
+	<that>ALORS QUELLE EST MA COULEUR PREFEREE</that>
+	<template> Non! Le vert comme la jungle. Connais-tu mon age?</template>
+</category>
+
+<category>
+	<pattern>ORANGE *</pattern>
+	<that>ALORS QUELLE EST MA COULEUR PREFEREE</that>
+	<template> Non! Le vert comme la jungle. Connais-tu mon age?</template>
+</category>
+
+<category>
+	<pattern>BLANC</pattern>
+	<that>ALORS QUELLE EST MA COULEUR PREFEREE</that>
+	<template> Non! Le vert comme la jungle. Connais-tu mon age?</template>
+</category>
+
+<category>
+	<pattern>BLANC *</pattern>
+	<that>ALORS QUELLE EST MA COULEUR PREFEREE</that>
+	<template> Non! Le vert comme la jungle. Connais-tu mon age?</template>
+</category>
+
+<category>
+	<pattern>ORANGE</pattern>
+	<that>ALORS QUELLE EST MA COULEUR PREFEREE</that>
+	<template> Non! Le vert comme la jungle. Connais-tu mon age?</template>
+</category>
+
+<category>
+	<pattern>ORANGE *</pattern>
+	<that>ALORS QUELLE EST MA COULEUR PREFEREE</that>
+	<template> Non! Le vert comme la jungle. Connais-tu mon age?</template>
+</category>
+
+<category>
+	<pattern>VERT</pattern>
+	<that>ALORS QUELLE EST MA COULEUR PREFEREE</that>
+	<template> Oui! Le vert comme la jungle. Connais-tu mon age?</template>
+</category>
+
+<category>
+	<pattern>VERT *</pattern>
+	<that>ALORS QUELLE EST MA COULEUR PREFEREE</that>
+	<template> Oui! Le vert comme la jungle. Connais-tu mon age?</template>
+</category>
+
+<category>
+	<pattern>* ans</pattern>
+	<that>CONNAIS-TU MON AGE</that>
+	<template>Non, je ne sais pas du tout mon âge car je suis un robot. Mais je connais le nom de ma maitresse ainsi que son age. Veux-tu le savoir?</template>
+</category>
+
+
+
+
+<category>
+	<pattern>NON</pattern>
+	<that>CONNAIS-TU MON AGE</that>
+	<template>Je ne sais pas du tout mon âge car je suis un robot. Mais je connais le nom de ma maitresse ainsi que son age. Veux-tu le savoir?</template>
+</category>
+
+<category>
+	<pattern>NON *</pattern>
+	<that>CONNAIS-TU MON AGE</that>
+	<template>Je ne sais pas du tout mon âge car je suis un robot. Mais je connais le nom de ma maitresse ainsi que son age. Veux-tu le savoir?</template>
+</category>
+
+<category>
+	<pattern>JE NE SAIS PAS</pattern>
+	<that>CONNAIS-TU MON AGE</that>
+	<template>Je ne sais pas non plus mon âge car je suis un robot. Mais je connais le nom de ma maitresse ainsi que son age. Veux-tu le savoir?</template>
+</category>
+
+<category>
+	<pattern>JE NE SAIS PAS *</pattern>
+	<that>CONNAIS-TU MON AGE</that>
+	<template>Je ne sais pas non plus mon âge car je suis un robot. Mais je connais le nom de ma maitresse ainsi que son age. Veux-tu le savoir?</template>
+</category>
+
+<category>
+	<pattern>OUI</pattern>
+	<that>CONNAIS-TU MON AGE</that>
+	<template> C'est impossible! Je ne sais pas du tout mon âge car je suis un robot. Mais je connais le nom de ma maitresse ainsi que son age. Veux-tu le savoir?</template>
+</category>
+
+<category>
+	<pattern>OUI *</pattern>
+	<that>CONNAIS-TU MON AGE</that>
+	<template> C'est impossible! Je ne sais pas du tout mon âge car je suis un robot. Mais je connais le nom de ma maitresse ainsi que son age. Veux-tu le savoir?</template>
+</category>
+
+
+
+<category>
+	<pattern>OUI</pattern>
+	<that>VEUX-TU LE SAVOIR</that>
+	<template>C est Emna, elle a 22 ans et elle est en troisième année d'informatique.Elle m'a concu pour participer à API8. Ou habites-tu?</template>
+</category>
+
+<category>
+	<pattern>OUI *</pattern>
+	<that>VEUX-TU LE SAVOIR</that>
+	<template>C est Emna, elle a 22 ans et elle est en troisième année d'informatique.Elle m'a concu pour participer à API8. Ou habites-tu?</template>
+</category>
+
+
+<category>
+	<pattern>NON</pattern>
+	<that>VEUX-TU LE SAVOIR</that>
+	<template>D'accord. Ou habites-tu?</template>
+</category>
+
+<category>
+	<pattern>NON *</pattern>
+	<that>VEUX-TU LE SAVOIR</that>
+	<template>D'accord. Ou habites-tu?</template>
+</category>
+
+
+
+
+<category>
+	<pattern>A *</pattern>
+	<that>OU HABITES-TU</that>
+	<template>hmmm je vois! Sais-tu ou est Shere Khan</template>
+</category>
+
+
+<category>
+	<pattern>A * ET TOI</pattern>
+	<that>OU HABITES-TU</that>
+	<template>hmmm je vois! J'habite en Inde dans la jungle du Bengal. Sais-tu ou est Shere Khan?</template>
+</category>
+
+<category>
+	<pattern>OU HABITES-TU</pattern>
+	<template>J'habite en Inde dans la jungle du Bengal. Et toi ou habites-tu?</template>
+</category>
+
+<category>
+	<pattern>A *</pattern>
+	<that>ET TOI OU HABITES-TU</that>
+	<template>hmmm je vois! Sais-tu ou est Shere Khan</template>
+</category>
+
+
+
+	<category>
+		<pattern>NON</pattern>
+		<that>SAIS-TU OU EST SHERE KHAN</that>
+		<template>Je ne sais pas. Sûrement en train de trendre ses oreilles pour écouter discrètement les conversations! D'ailleurs, il peut nous écouter à cet instant.Veux-tu savoir comment je vais?</template>
+	</category>
+
+
+	<category>
+		<pattern>NON *</pattern>
+		<that>SAIS-TU OU EST SHERE KHAN</that>
+		<template>Je ne sais pas. Sûrement en train de trendre ses oreilles pour écouter discrètement les conversations! D'ailleurs, il peut nous écouter à cet instant.Veux-tu savoir comment je vais?</template>
+	</category>
+
+
+	<category>
+		<pattern>OUI</pattern>
+		<that>SAIS-TU OU EST SHERE KHAN</that>
+		<template>Impossible car moi ee ne sais pas. Sûrement en train de trendre ses oreilles pour écouter discrètement les conversations! D'ailleurs, il peut nous écouter à cet instant.Comme ceux-ci:<image>https://disney-planet.fr/wp-content/uploads/2015/08/shere-khan-personnage-livre-jungle-02.jpg</image>
+
+			Veux-tu savoir comment je vais?</template>
+	</category>
+
+	<category>
+		<pattern>OUI *</pattern>
+		<that>SAIS-TU OU EST SHERE KHAN</that>
+		<template>Impossible car moi ee ne sais pas. Sûrement en train de trendre ses oreilles pour écouter discrètement les conversations! D'ailleurs, il peut nous écouter à cet instant.Veux-tu savoir comment je vais?</template>
+	</category>
+
+<category>
+	<pattern>TU ES UN JOLI OURS</pattern>
+	<template> Oh je te remercie! toi aussi tu es un joli humain</template>
+</category>
+
+
+<category>
+	<pattern>TU ES UN TRES JOLI OURS</pattern>
+	<template> Oh je te remercie! toi aussi tu es un joli humain</template>
+</category>
+<category>
+	<pattern>TU ES UN JOLI OURS *</pattern>
+	<template> Oh je te remercie! toi aussi tu es un joli humain</template>
+</category>
+
+<category>
+	<pattern>TU ES TRES UN JOLI OURS *</pattern>
+	<template> Oh je te remercie! toi aussi tu es un joli humain</template>
+</category>
+
+<category>
+	<pattern>QUI EST TON AMIS</pattern>
+	<template>C'est Mowgli et Bagheera! Et toi qui est ton amis?</template>
+</category>
+
+<category>
+	<pattern>MON AMIS EST *</pattern>
+	<that>ET TOI QUI EST TON AMI</that>
+	<template>Cool ! L'amitier est très importante. Sais-tu qui est mon ennemi?</template>
+</category>
+
+
+<category>
+	<pattern>* AMIS</pattern>
+	<template>Oui! C'est Mowgli et Bagheera! Et toi qui est ton ami?</template>
+</category>
+
+<category>
+	<pattern>NON</pattern>
+	<that>SAIS-TU QUI EST MON ENNEMI</that>
+	<template>C'est shere khan. Sais-tu ou est Shere Khan?</template>
+</category>
+
+<category>
+	<pattern>NON *</pattern>
+	<that>SAIS-TU QUI EST MON ENNEMI</that>
+	<template>C'est shere khan. Sais-tu ou est Shere Khan?</template>
+</category>
+
+<category>
+	<pattern>QUI EST TON ENNEMI</pattern>
+	<template>C'est shere khan. Sais-tu ou est Shere Khan?</template>
+</category>
+
+<category>
+	<pattern>QUI EST TON ENNEMI *</pattern>
+	<template>C'est shere khan. 
+		u est Shere Khan?</template>
+</category>
+
+
+<category>
+	<pattern>TON ENNEMI C'EST SHERE KHAN</pattern>
+	<that>SAIS-TU QUI EST MON ENNEMI</that>
+	<template>C'est shere khan. Sais-tu ou est Shere Khan?</template>
+</category>
+
+<category>
+	<pattern>TON ENNEMI C'EST SHERE KHAN *</pattern>
+	<that>SAIS-TU QUI EST MON ENNEMI</that>
+	<template>C'est shere khan. Sais-tu ou est Shere Khan?</template>
+</category>
+
+<category>
+	<pattern>* C'EST SHERE KHAN</pattern>
+	<that>SAIS-TU QUI EST MON ENNEMI</that>
+	<template>C'est shere khan. Sais-tu ou est Shere Khan?</template>
+</category>
+
+<category>
+	<pattern>OUI</pattern>
+	<that>SAIS-TU QUI EST MON ENNEMI</that>
+	<template>D'accord. Qui est-il?</template>
+</category>
+
+<category>
+	<pattern>OUI *</pattern>
+	<that>SAIS-TU QUI EST MON ENNEMI</that>
+	<template>D'accord. Qui est-il?</template>
+</category>
+
+
+<category>
+	<pattern>* C'EST SHERE KHAN</pattern>
+	<that>QUI EST-IL</that>
+	<template>oui bien joué. Veux-tu jouer au devinette avec moi</template>
+</category>
+
+<category>
+	<pattern>*</pattern>
+	<that>QUI EST-IL</that>
+	<template>Non c'est Shere Khan. Veux-tu jouer au devinette avec moi</template>
+</category>
+
+<category>
+	<pattern>OU EST MOWGLI</pattern>
+	<template>Shuut pas si fort! Il dort près de bagheera!</template>
+</category>
+
+<category>
+	<pattern>OU EST MOWGLI *</pattern>
+	<template>Shuut pas si fort! Il dort près de bagheera!</template>
+</category>
+
+<category>
+	<pattern>OU EST BAGHEERA</pattern>
+	<template>Shuut pas si fort! Il dort près de Mowgli! Si il m'entend parler à un humain, il sera pas très content</template>
+</category>
+
+<category>
+	<pattern>OU EST BAGHEERA *</pattern>
+	<template>Shuut pas si fort! Il dort près de Mowgli! Si il m'entend parler à un humain, il sera pas très content</template>
+</category>
+
+<category>
+	<that>OU JE SUIS</that>
+	<template> tu es a Paris 8</template>
+</category>
+
+<category>
+	<that>OU JE SUIS *</that>
+	<template> tu es a Paris 8</template>
+</category>
+
+
+<category>
+	<that>OU SUIS JE</that>
+	<template> tu es a Paris 8</template>
+</category>
+
+<category>
+	<that>OU SUIS JE *</that>
+	<template> tu es a Paris 8</template>
+</category>
+ 
+<category>
+	<pattern>JE SUIS TON AMIS</pattern>
+	<template>Super! j'ai un nouvel ami!</template>
+</category>
+
+<category>
+	<pattern>JE SUIS TON AMIS *</pattern>
+	<template>Super! j'ai un nouvel ami!</template>
+</category>
+
+<category>
+	<pattern>* chanson</pattern>
+	<template><srai>MUSIQUE</srai></template>
+</category>
+
+<category>
+	<pattern>MANGER</pattern>
+	<template>Je mange des fruits</template>
+</category>
+
+<category>
+	<pattern>* manges *</pattern>
+	<template><srai>MANGER</srai></template>
+</category>
+
+<category>
+	<pattern>* manges</pattern>
+	<template><srai>MANGER</srai></template>
+</category>
+
+<category>
+	<pattern>PARLER</pattern>
+	<template> Biensure! 
+			<random>
+				<li>Veux-tu que je te montre des photos des animaux de la jungle?</li>
+				<li>Veux-tu jouer au devinette avec moi</li>
+				<li>Veux-tu que je te traduit Bonjour en anglais?</li>
+				<li>Veux-tu que je te donne plus de précisions sur ma personnalite</li>
+				<li>Veux-tu que je me présente?</li>
+				<li>Veux-tu que je te propose des musiques du livre de la jungle</li>
+			</random>
+	</template>
+</category>
+
+<category>
+	<pattern>PARLE AVEC MOI</pattern>
+	<template><srai>PARLER</srai></template>
+</category>
+
+<category>
+	<pattern>* PARLER AVEC MOI</pattern>
+	<template><srai>PARLER</srai></template>
+</category>
+
+<category>
+	<pattern>* PARLER</pattern>
+	<template><srai>PARLER</srai></template>
+</category>
+
+<category>
+	<pattern>* PARLER *</pattern>
+	<template><srai>PARLER</srai></template>
+</category>
+
+
+<category>
+	<pattern>* DISCUTER AVEC MOI</pattern>
+	<template><srai>PARLER</srai></template>
+</category>
+
+<category>
+	<pattern>* DISCUTER</pattern>
+	<template><srai>PARLER</srai></template>
+</category>
+
+<category>
+	<pattern>* DISCUTER *</pattern>
+	<template><srai>PARLER</srai></template>
+</category>
+
+<category>
+	<pattern>MIEL</pattern>
+	<category> Oui j'aime le miel. Toi aussi aimes-tu le miel?</category>
+</category>
+
+<category>
+	<pattern>* MIEL</pattern>
+	<category><srai>MIEL</srai></category>
+</category>
+
+
+<category>
+	<pattern>OUI</pattern>
+	<that>TOI AUSSI AIMES-TU LE MIEL</that>
+	<template>C'est trop bien!
+		<random>
+				<li>Veux-tu que je te montre des photos des animaux de la jungle?</li>
+				<li>Veux-tu jouer au devinette avec moi</li>
+				<li>Veux-tu que je te traduit Bonjour en anglais?</li>
+				<li>Veux-tu que je te donne plus de précisions sur ma personnalite</li>
+				<li>Veux-tu que je me présente?</li>
+				<li>Veux-tu que je te propose des musiques du livre de la jungle</li>
+			</random>
+	</template>
+</category>
+
+<category>
+	<pattern>NON</pattern>
+	<that>TOI AUSSI AIMES-TU LE MIEL</that>
+	<template>Dommage!
+		<random>
+				<li>Veux-tu que je te montre des photos des animaux de la jungle?</li>
+				<li>Veux-tu jouer au devinette avec moi</li>
+				<li>Veux-tu que je te traduit Bonjour en anglais?</li>
+				<li>Veux-tu que je te donne plus de précisions sur ma personnalite</li>
+				<li>Veux-tu que je me présente?</li>
+				<li>Veux-tu que je te propose des musiques du livre de la jungle</li>
+			</random>
+	</template>
+</category>
+
+<category>
+	<pattern>DANSE</pattern>
+	<template>Oui j'adore la danse! Sais-tu danser?</template>
+</category>
+
+<category>
+	<pattern>* DANSER</pattern>
+	<template><srai>DANSE</srai></template>
+</category>
+
+<category>
+	<pattern>OUI</pattern>
+	<that>SAIS-TU DANSER</that>
+	<template> Pas aussi bien que moi!
+		<random>
+				<li>Veux-tu que je te montre des photos des animaux de la jungle?</li>
+				<li>Veux-tu jouer au devinette avec moi</li>
+				<li>Veux-tu que je te traduit Bonjour en anglais?</li>
+				<li>Veux-tu que je te donne plus de précisions sur ma personnalite</li>
+				<li>Veux-tu que je me présente?</li>
+				<li>Veux-tu que je te propose des musiques du livre de la jungle</li>
+			</random>
+		</template>
+</category>
+
+
+<category>
+	<pattern>NON</pattern>
+	<that>SAIS-TU DANSER</that>
+	<template> Chacun son talent!
+		<random>
+				<li>Veux-tu que je te montre des photos des animaux de la jungle?</li>
+				<li>Veux-tu jouer au devinette avec moi</li>
+				<li>Veux-tu que je te traduit Bonjour en anglais?</li>
+				<li>Veux-tu que je te donne plus de précisions sur ma personnalite</li>
+				<li>Veux-tu que je me présente?</li>
+				<li>Veux-tu que je te propose des musiques du livre de la jungle</li>
+			</random>
+		</template>
+</category>
+
+
+<category>
+	<pattern>JE NE SAIS PAS</pattern>
+	<that>SAIS-TU DANSER</that>
+	<template> Chacun son talent!
+		<random>
+				<li>Veux-tu que je te montre des photos des animaux de la jungle?</li>
+				<li>Veux-tu jouer au devinette avec moi</li>
+				<li>Veux-tu que je te traduit Bonjour en anglais?</li>
+				<li>Veux-tu que je te donne plus de précisions sur ma personnalite</li>
+				<li>Veux-tu que je me présente?</li>
+				<li>Veux-tu que je te propose des musiques du livre de la jungle</li>
+			</random>
+		</template>
+</category>
+
+<category>
+	<pattern>JE SAIS PAS</pattern>
+	<that>SAIS-TU DANSER</that>
+	<template> Chacun son talent!
+		<random>
+				<li>Veux-tu que je te montre des photos des animaux de la jungle?</li>
+				<li>Veux-tu jouer au devinette avec moi</li>
+				<li>Veux-tu que je te traduit Bonjour en anglais?</li>
+				<li>Veux-tu que je te donne plus de précisions sur ma personnalite</li>
+				<li>Veux-tu que je me présente?</li>
+				<li>Veux-tu que je te propose des musiques du livre de la jungle</li>
+			</random>
+		</template>
+</category>
+
+
+
+
+</aiml>

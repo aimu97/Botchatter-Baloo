@@ -1,0 +1,34 @@
+0,VOIX,*,*,Oulala! Quelle est cette horrible voix que ma créatrice m'a donné. J'ai l'air d'un déprimé alors que je suis censé exprimer de la joie et de la bonne humeur. Et toi comment la trouves-tu?,voix.aiml
+0,OUI,AI-JE UNE VOIX ASSEZ BIZARRE,*,<srai>VOIX</srai>,voix.aiml
+0,YES,AI-JE UNE VOIX ASSEZ BIZARRE,*,<srai>VOIX</srai>,voix.aiml
+0,OUAIP,AI-JE UNE VOIX ASSEZ BIZARRE,*,<srai>VOIX</srai>,voix.aiml
+0,YEP,AI-JE UNE VOIX ASSEZ BIZARRE,*,<srai>VOIX</srai>,voix.aiml
+0,PAS TRES JOLIE,ET TOI COMMENT LA TROUVES-TU,*,Ta voix aussi n'est pas très jolie. Veux-tu venir avec moi dans la jungle?,voix.aiml
+0,MOCHE,ET TOI COMMENT LA TROUVES-TU,*,Ta voix aussi est moche. Veux-tu venir avec moi dans la jungle?,voix.aiml
+0,J AIME PAS,ET TOI COMMENT LA TROUVES-TU,*,Moi aussi j'aime pas ta voix. Veux-tu venir avec moi dans la jungle?,voix.aiml
+0,PAS FAN,ET TOI COMMENT LA TROUVES-TU,*,Moi aussi je suis pas fan ta voix. Veux-tu venir avec moi dans la jungle?,voix.aiml
+0,BIZARRE,ET TOI COMMENT LA TROUVES-TU,*,Moi aussi je trouve ta voix aussi bizarre que la mienne. Veux-tu venir avec moi dans la jungle?,voix.aiml
+0,JOLIE,ET TOI COMMENT LA TROUVES-TU,*,Ta voix aussi est jolie. Veux-tu venir avec moi dans la jungle?,voix.aiml
+0,BELLE,ET TOI COMMENT LA TROUVES-TU,*,Ta voix aussi est belle. Veux-tu venir avec moi dans la jungle?,voix.aiml
+0,J'AIME BIEN,ET TOI COMMENT LA TROUVES-TU,*,Moi aussi j'aime bien ta voix. Veux-tu venir avec moi dans la jungle?,voix.aiml
+0,JE SUIS FAN,ET TOI COMMENT LA TROUVES-TU,*,Moi aussi je suis fan ta voix. Veux-tu venir avec moi dans la jungle?,voix.aiml
+0,ORIGINALE,ET TOI COMMENT LA TROUVES-TU,*,Moi aussi je trouve ta voix aussi originale que la mienne. Veux-tu venir avec moi dans la jungle?,voix.aiml
+0,SEXY,ET TOI COMMENT LA TROUVES-TU,*,Arrête tu vas me faire rouge avec ce beau compliments. Veux-tu venir avec moi dans la jungle?,voix.aiml
+0,* PAS TRES JOLIE,ET TOI COMMENT LA TROUVES-TU,*,Ta voix aussi n'est pas très jolie. Veux-tu venir avec moi dans la jungle?,voix.aiml
+0,* MOCHE,ET TOI COMMENT LA TROUVES-TU,*,Ta voix aussi est moche. Veux-tu venir avec moi dans la jungle?,voix.aiml
+0,J AIME PAS *,ET TOI COMMENT LA TROUVES-TU,*,Moi aussi j'aime pas ta voix. Veux-tu venir avec moi dans la jungle?,voix.aiml
+0,* PAS FAN,ET TOI COMMENT LA TROUVES-TU,*,Moi aussi je suis pas fan ta voix. Veux-tu venir avec moi dans la jungle?,voix.aiml
+0,* BIZARRE,ET TOI COMMENT LA TROUVES-TU,*,Moi aussi je trouve ta voix aussi bizarre que la mienne. Veux-tu venir avec moi dans la jungle?,voix.aiml
+0,* JOLIE,ET TOI COMMENT LA TROUVES-TU,*,Ta voix aussi est jolie. Veux-tu venir avec moi dans la jungle?,voix.aiml
+0,* BELLE,ET TOI COMMENT LA TROUVES-TU,*,Ta voix aussi est belle. Veux-tu venir avec moi dans la jungle?,voix.aiml
+0,J'AIME BIEN *,ET TOI COMMENT LA TROUVES-TU,*,Moi aussi j'aime bien ta voix. Veux-tu venir avec moi dans la jungle?,voix.aiml
+0,JE SUIS FAN *,ET TOI COMMENT LA TROUVES-TU,*,Moi aussi je suis fan ta voix. Veux-tu venir avec moi dans la jungle?,voix.aiml
+0,* ORIGINALE,ET TOI COMMENT LA TROUVES-TU,*,Moi aussi je trouve ta voix aussi originale que la mienne. Veux-tu venir avec moi dans la jungle?,voix.aiml
+0,* SEXY,ET TOI COMMENT LA TROUVES-TU,*,Arrête tu vas me faire rouge avec ce beau compliments. Veux-tu venir avec moi dans la jungle?,voix.aiml
+0,STRESS,*,*,J'hallucine peut être...Ou peut être que je stresse beaucoup trop à cause des spectateurs qui me regardent dans cette salle.Veux-tu venir avec moi dans la jungle?,voix.aiml
+0,NON,AI-JE UNE VOIX ASSEZ BIZARRE,*,<srai>STRESS</srai>,voix.aiml
+0,NON *,AI-JE UNE VOIX ASSEZ BIZARRE,*,<srai>STRESS</srai>,voix.aiml
+0,NO *,AI-JE UNE VOIX ASSEZ BIZARRE,*,<srai>STRESS</srai>,voix.aiml
+0,NOPE *,AI-JE UNE VOIX ASSEZ BIZARRE,*,<srai>STRESS</srai>,voix.aiml
+0,JE NE SAIS PAS,AI-JE UNE VOIX ASSEZ BIZARRE,*,<srai>STRESS</srai>,voix.aiml
+0,JE NE SAIS PAS *,AI-JE UNE VOIX ASSEZ BIZARRE,*,<srai>STRESS</srai>,voix.aiml

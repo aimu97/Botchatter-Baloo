@@ -1,0 +1,28 @@
+0,AIDE,*,*,<random>#Newline			<li> Tu peux me poser des questions. Si tu veux avoir plus de précisions#Comma saisie: "Donne moi plus de précisions à propos de Baloo"</li>#Newline			<li> Tu peux me demander de te proposer des vidéos de musique sur le livre de la jungle. Si tu veux avoir plus de précisions#Commasaisie: "Donne moi plus de précisions en musique"</li>#Newline			<li> Tu peux me demander de te présenter les personnages de la jungle. Si tu veux avoir plus de précisions#Comma saisie: "Donne moi plus de précisions à propos des personnages de la jungle"</li>#Newline			<li>Je peux te proposer des petits souvenirs sur le livre de la jungle. Si tu veux avoir plus de précisions#Comma saisie: "Donne moi plus de précisions sur les souvenirs"</li>#Newline			<li>Je sais traduire quelques mots en Arabe ou en Anglais. Si tu veux avoir plus de précisions#Comma saisie: "Donne moi plus de précisions sur la traduction" ou "Quels sont les mots que tu sais traduire"</li>#Newline			<li>On peut jouer aux devinettes#Comma saisie : "Je veux jouer aux devinettes"</li>#Newline		</random>,aide.aiml
+0,TRADUCTION,*,*,Ma maîtresse m'a appris quelques mots en anglais et en arabe. Mais ton pauvre Baloo a une mémoire très courte. Je me rappelle de: "bonjour"#Comma "au revoir"#Comma "je m'appelle Baloo"#Comma "je suis un ours joyeux et paresseux"#Comma "je suis fan des fêtes et de la musique jazz". Veux-tu que je te traduit Bonjour en anglais?,aide.aiml
+0,QUELS SONT LES MOTS QUE TU SAIS TRADUIRE,*,*,<srai>TRADUCTION</srai>,aide.aiml
+0,DONNE MOI PLUS DE PRECISIONS EN TRADUCTION,*,*,<srai>TRADUCTION</srai>,aide.aiml
+0,DONNE MOI PLUS DE PRECISIONS EN MUSIQUE,*,*,Tu peux me demander: "quel est mon style musical" ou de te "proposer des musiques de disney,aide.aiml
+0,DONNE MOI PLUS DE PRECISIONS A PROPOS DES PERSONNAGES DE LA JUNGLE,*,*,<srai>QUEL PERSONNAGE</srai>,aide.aiml
+0,DONNE MOI PLUS DE PRECISIONS A PROPOS DE BALOO,*,*,TU peux me demander : Qui suis-je?#Comma Peut-tu me parler de toi?#Comma Puis-je avoir des précisions sur ta personnalité?#Comma suis-je amoureux?#Comma que fais-je ici? #Comma quelle est ma couleur préferée? #Comma qui est mon créateur? #Comma Quel est mon style de musique?#Comma quel est mon disney preféré?#Comma où j'habite ?,aide.aiml
+0,HELP,*,*,<srai>AIDE</srai>,aide.aiml
+0,AIDE MOI,*,*,<srai>AIDE</srai>,aide.aiml
+0,HELP ME,*,*,<srai>AIDE</srai>,aide.aiml
+0,J'AI BESOIN D'AIDE,*,*,<srai>AIDE</srai>,aide.aiml
+0,BALOO AIDE MOI,*,*,<srai>AIDE</srai>,aide.aiml
+0,OUAIS,AS-TU BESOIN D'AIDE,*,<srai>AIDE</srai>,aide.aiml
+0,OUAIP,AS-TU BESOIN D'AIDE,*,<srai>AIDE</srai>,aide.aiml
+0,OK,*,*,<random>#Newline				<li>Veux-tu que je te montre des photos des animaux de la jungle?</li>#Newline				<li>Veux-tu jouer au devinette avec moi</li>#Newline				<li>Veux-tu que je te traduit Bonjour en anglais?</li>#Newline				<li>Veux-tu que je te donne plus de précisions sur ma personnalité</li>#Newline				<li>Veux-tu que je me présente?</li>#Newline				<li>Veux-tu que je te propose des musiques du livre de la jungle</li>#Newline			</random>,aide.aiml
+0,OK *,*,*,<random>#Newline				<li>Veux-tu que je te montre des photos des animaux de la jungle?</li>#Newline				<li>Veux-tu jouer au devinette avec moi</li>#Newline				<li>Veux-tu que je te traduit Bonjour en anglais?</li>#Newline				<li>Veux-tu que je te donne plus de précisions sur ma personnalité</li>#Newline				<li>Veux-tu que je me présente?</li>#Newline				<li>Veux-tu que je te propose des musiques du livre de la jungle</li>#Newline			</random>,aide.aiml
+0,YEP,AS-TU BESOIN D'AIDE,*,<srai>AIDE</srai>,aide.aiml
+0,YES,AS-TU BESOIN D'AIDE,*,<srai>AIDE</srai>,aide.aiml
+0,NO,AS-TU BESOIN D'AIDE,*,Même si tu veux pas#Comma je vais tout de même t'aider.<srai>AIDE</srai>,aide.aiml
+0,NOPE,AS-TU BESOIN D'AIDE,*,Même si tu veux pas#Comma je vais tout de même t'aider.<srai>AIDE</srai>,aide.aiml
+0,OUI,AS-TU BESOIN D'AIDE,*,<srai>AIDE</srai>,aide.aiml
+0,OUAIS *,AS-TU BESOIN D'AIDE,*,<srai>AIDE</srai>,aide.aiml
+0,OUAIP *,AS-TU BESOIN D'AIDE,*,<srai>AIDE</srai>,aide.aiml
+0,YEP *,AS-TU BESOIN D'AIDE,*,<srai>AIDE</srai>,aide.aiml
+0,YES *,AS-TU BESOIN D'AIDE,*,<srai>AIDE</srai>,aide.aiml
+0,NO *,AS-TU BESOIN D'AIDE,*,Même si tu veux pas#Comma je vais tout de même t'aider.<srai>AIDE</srai>,aide.aiml
+0,NON,AS-TU BESOIN D'AIDE,*,Même si tu veux pas#Comma je vais tout de même t'aider.<srai>AIDE</srai>,aide.aiml
+0,NOPE *,AS-TU BESOIN D'AIDE,*,Même si tu veux pas#Comma je vais tout de même t'aider.<srai>AIDE</srai>,aide.aiml

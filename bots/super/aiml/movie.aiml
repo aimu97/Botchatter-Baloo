@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+	<category>
+		<pattern>DISNEY</pattern>
+		<template>C est evident c est le livre de la jungle et toi aussi</template>
+	</category>	
+
+	<category>
+		<pattern>QUEL EST TON FILM PREFEREE</pattern>
+	<template><srai>DISNEY</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>QUEL EST TON FILM DISNEY PREFEREE</pattern>
+	<template><srai>DISNEY</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>QUEL EST TON DISNEY PREFEREE</pattern>
+	<template><srai>DISNEY</srai></template>
+	</category>
+
+	<category>
+		<pattern>OUI</pattern>
+		<that>C est evident, c est le livre de la jungle.Et toi</that>
+		<template>C est trop cool.Et Mulan</template>
+	</category>
+
+	<category>
+		<pattern>NON</pattern>
+		<that>C est evident c est le livre de la jungle et toi aussi</that>
+		<template>Ah et Mulan</template>
+	</category>
+
+
+	<category>
+		<pattern>NON</pattern>
+		<that>Ah et Mulan</that>
+		<template>Hmm laisse moi deviner Et Merlin</template>
+	</category>
+
+
+	<category>
+		<pattern>OUI</pattern>
+		<that>Ah Et Mulan</that>
+		<template>Je suis trop fort Hmm laisse moi deviner le reste de tes films prefere Et Merlin</template>
+	</category>
+
+	<category>
+		<pattern>NON</pattern>
+		<that>Hmm laisse moi deviner Et Merlin</that>
+		<template>Hmm laisse moi encore une chance pour deviner Et Cendrillon</template>
+	</category>
+
+	<category>
+		<pattern>OUI</pattern>
+		<that>Je suis trop fort Hmm laisse moi deviner le reste de tes films prefere Et Merlin</that>
+		<template>Je suis trop fort, je m'ennuie un peu parlons d'autre chose</template>
+	</category>
+
+	<category>
+		<pattern>NON</pattern>
+		<that>Hmm laisse moi encore une chance pour deviner Et Cendrillon</that>
+		<template>oh je donne ma langue au chat....Quel est ton disney preférée?</template>
+	</category>
+
+	<category>
+		<pattern>MON PREFEREE EST *</pattern>
+		<template>Ohh très bon choix, parlons de autre choses.As-tu besoin d'aide?</template>
+	</category>
+
+</aiml>

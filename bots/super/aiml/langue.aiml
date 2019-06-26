@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+	<category>
+		<pattern>OUI</pattern>
+		<that>VEUX-TU QUE JE TE TRADUIT BONJOUR EN ANGLAIS</that>
+		<template><srai>BONJOUR EN ANGLAIS</srai>. Veux-tu que je te traduit Bonjour en arabe?</template>
+	</category>
+
+		<category>
+		<pattern>NON</pattern>
+			<that>VEUX-TU QUE JE TE TRADUIT BONJOUR EN ANGLAIS</that>
+			<template>Veux-tu que je te propose des musiques du livre de la jungle?</template>
+	</category>
+
+
+	<category>
+		<pattern>OUI</pattern>
+		<that>VEUX-TU QUE JE TE TRADUIT BONJOUR EN ARABE</that>
+		<template><srai>BONJOUR EN ARABE</srai>. Veux-tu que je te traduit Au revoir en arabe?</template>
+	</category>
+
+		<category>
+		<pattern>NON</pattern>
+			<that>VEUX-TU QUE JE TE TRADUIT BONJOUR EN ARABE</that>
+			<template>Veux-tu que je te propose des musiques du livre de la jungle?</template>
+	</category>
+
+
+
+	<category>
+		<pattern>OUI</pattern>
+		<that>VEUX-TU QUE JE TE TRADUIT AU REVOIR EN ARABE</that>
+		<template><srai>AU REVOIR EN ARABE</srai>. Veux-tu que je te traduit Au revoir en anglais?</template>
+	</category>
+
+		<category>
+		<pattern>NON</pattern>
+			<that>VEUX-TU QUE JE TE TRADUIT AU REVOIR EN ARABE</that>
+			<template>Veux-tu que je te propose des musiques du livre de la jungle?</template>
+	</category>
+
+
+
+	<category>
+		<pattern>OUI</pattern>
+		<that>VEUX-TU QUE JE TE TRADUIT AU REVOIR EN ANGLAIS</that>
+		<template><srai>AU REVOIR EN ANGLAIS</srai>. Veux-tu que je te traduit je m'appelle Baloo en anglais?</template>
+	</category>
+
+		<category>
+		<pattern>NON</pattern>
+			<that>VEUX-TU QUE JE TE TRADUIT AU REVOIR EN ANGLAIS</that>
+			<template>Veux-tu que je te propose des musiques du livre de la jungle?</template>
+	</category>
+
+
+	<category>
+		<pattern>OUI</pattern>
+		<that>VEUX-TU QUE JE TE TRADUIT JE M'APPELLE BALOO EN ANGLAIS</that>
+		<template><srai>JE M'APPELLE BALOO EN ANGLAIS</srai>. Veux-tu que je te traduit je m'appelle Baloo en arabe?</template>
+	</category>
+
+		<category>
+		<pattern>NON</pattern>
+			<that>VEUX-TU QUE JE TE TRADUIT JE M'APPELLE BALOO EN ANGLAIS</that>
+			<template>Veux-tu que je te propose des musiques du livre de la jungle?</template>
+	</category>
+
+
+	<category>
+		<pattern>OUI</pattern>
+		<that>VEUX-TU QUE JE TE TRADUIT JE M'APPELLE BALOO EN ARABE</that>
+		<template><srai>JE M'APPELLE BALOO EN ARABE</srai>. Veux-tu que je te traduit je suis un ours joyeux et paresseux en arabe?</template>
+	</category>
+
+		<category>
+		<pattern>NON</pattern>
+			<that>VEUX-TU QUE JE TE TRADUIT JE M'APPELLE BALOO EN ARABE</that>
+			<template>Veux-tu que je te propose des musiques du livre de la jungle?</template>
+	</category>
+
+
+	<category>
+		<pattern>OUI</pattern>
+		<that>JE SUIS UN OURS JOYEUX ET PARESSEUX EN ARABE</that>
+		<template><srai>JE SUIS UN OURS JOYEUX ET PARESSEUX EN ARABE</srai>. Veux-tu que je te traduit je suis un ours joyeux et paresseux en anglais?</template>
+	</category>
+
+		<category>
+		<pattern>NON</pattern>
+			<that>JE SUIS UN OURS JOYEUX ET PARESSEUX EN ARABE</that>
+			<template>Veux-tu que je te propose des musiques du livre de la jungle?</template>
+	</category>
+
+
+
+
+	<category>
+		<pattern>OUI</pattern>
+			<that>JE SUIS UN OURS JOYEUX ET PARESSEUX EN ANGLAIS</that>
+			<template><srai>JE SUIS UN OURS JOYEUX ET PARESSEUX EN ANGLAIS</srai>. Veux-tu que je te traduit je suis fan des fêtes et de la musique jazz en anglais?</template>
+	</category>
+
+
+	<category>
+		<pattern>NON</pattern>
+			<that>JE SUIS UN OURS JOYEUX ET PARESSEUX EN ANGLAIS</that>
+			<template>Veux-tu que je te propose des musiques du livre de la jungle?</template>
+	</category>
+
+	<category>
+		<pattern>OUI</pattern>
+			<that>JE SUIS FAN DES FETES SURTOUT DE LA MUSIQUE JAZZ EN ANGLAIS</that>
+			<template><srai>JE SUIS FAN DES FETES SURTOUT DE LA MUSIQUE JAZZ EN ANGLAIS</srai>. Veux-tu que je te traduit je suis fan des fêtes et de la musique jazz en anglais?</template>
+	</category>
+
+	<category>
+		<pattern>NON</pattern>
+			<that>JE SUIS FAN DES FETES SURTOUT DE LA MUSIQUE JAZZ EN ANGLAIS</that>
+			<template>Veux-tu que je te propose des musiques du livre de la jungle?</template>
+	</category>
+
+
+	<category>
+		<pattern>OUI</pattern>
+			<that>JE SUIS FAN DES FETES SURTOUT DE LA MUSIQUE JAZZ EN ARABE</that>
+			<template><srai>JE SUIS FAN DES FETES SURTOUT DE LA MUSIQUE JAZZ EN ARABE</srai>. Veux-tu que je te propose des musiques du livre de la jungle?</template>
+	</category>
+
+	<category>
+		<pattern>NON</pattern>
+			<that>JE SUIS FAN DES FETES SURTOUT DE LA MUSIQUE JAZZ EN ARABE</that>
+			<template>Veux-tu que je te propose des musiques du livre de la jungle?</template>
+	</category>
+
+
+
+	<category>
+	<pattern>BONJOUR EN ARABE</pattern>
+		<template> sabahou al khairy ^.^</template>
+	</category>
+
+	<category>
+	<pattern>BONJOUR EN ANGLAIS</pattern>
+		<template> Good morning or Hello ^.^ </template>
+	</category>
+
+	
+
+	<category>
+		<pattern>AU REVOIR EN ARABE</pattern>
+		<template>Ilaa likaa</template>
+	</category>
+
+	<category>
+		<pattern>AU REVOIR EN ANGLAIS</pattern>
+		<template>GoodBye</template>
+	</category>
+
+
+
+	<category>
+		<pattern>JE M'APPELLE BALOO EN ARABE</pattern>
+		<template>Ismi Baloo</template>
+	</category>
+
+	<category>
+		<pattern>JE M'APPELLE BALOO EN ANGLAIS</pattern>
+		<template>My name is Baloo or I'm Baloo</template>
+	</category>
+
+
+	<category>
+		<pattern>JE SUIS UN OURS JOYEUX ET PARESSEUX EN ARABE</pattern>
+		<template> Ana debbon saidon wa kassoul</template>
+	</category>
+
+	<category>
+		<pattern>JE SUIS UN OURS JOYEUX ET PARESSEUX EN ANGLAIS</pattern>
+		<template> I'm a happy and lazy bear</template>
+	</category>
+
+
+
+	<category> 
+		<pattern>JE SUIS FAN DES FETES SURTOUT DE LA MUSIQUE JAZZ EN ARABE</pattern>
+		<template> Ouhibou al hafaleti  khassatan moussika al jazz</template>
+	</category>
+
+	<category> 
+		<pattern>JE SUIS FAN DES FETES SURTOUT DE LA MUSIQUE JAZZ EN ANGLAIS</pattern>
+		<template> I love parties especially jazz music</template>
+	</category>
+
+	
+
+</aiml>

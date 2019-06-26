@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+	<category>
+		<pattern>OUI</pattern>
+		<that>VEUX-TU QUE JE TE PROPOSE DES MUSIQUES DU LIVRE DE LA JUNGLE</that>
+		<template><srai>MUSIQUE</srai>. Une autre musique?</template>
+	</category>
+
+	<category>
+		<pattern>OUI</pattern>
+		<that>UNE AUTRE MUSIQUE</that>
+		<template><srai>MUSIQUE</srai>. Une autre musique?</template>
+	</category>
+
+	<category>
+		<pattern>NON</pattern>
+		<that>UNE AUTRE MUSIQUE</that>
+		<template>Sais-tu quel est mon style de musique?</template>
+	</category>
+
+	<category>
+		<pattern>OUI</pattern>
+		<that>SAIS-TU QUEL EST MON STYLE DE MUSIQUE</that>
+		<template><srai>QUEL EST TON STYLE DE MUSIQUE</srai> Veux-tu que je te propose des souvenirs du livre de la jungle?</template>
+	</category>
+	<category>
+		<pattern>NON</pattern>
+		<that>SAIS-TU QUEL EST MON STYLE DE MUSIQUE</that>
+		<template><srai>QUEL EST TON STYLE DE MUSIQUE</srai> Veux-tu que je te propose des souvenirs du livre de la jungle?</template>
+	</category>
+
+	<category>
+		<pattern>MUSIQUE</pattern>
+		<template> 
+			<random>
+
+			<li>Tiens j ai ca pour toi: <audio controls="controls"> <source src="https://youtu.be/peR2EDHpd4w" type="audio/mp3" />Votre navigateur n'est pas compatible </audio>
+
+			Il en faut peu pour être heureux
+			Vraiment très peu pour être heureux
+			Il faut se satisfaire du nécessaire
+			Un peu d'eau fraîche et de verdure
+			Que nous prodigue la nature
+			Quelques rayons de miel et de soleil
+			Je dors d'ordinaire sous les frondaisons
+			Et toute la jungle est ma maison
+			Toutes les abeilles de la forêt
+			Butinent pour moi dans les bosquets
+			Et quand je retourne un gros caillou
+			Je sais trouver des fourmis dessous
+			Essaye c'est bon, c'est doux
+			Il en faut vraiment peu
+			Très peu pour être heureux......lalalalaalla </li>
+			
+			<li> youhou  ca swing : <audio controls="controls"> <source src="https://www.youtube.com/watch?v=WaSLzCw-yos" type="audio/mp3" />Votre navigateur n'est pas compatible </audio>
+
+			Je suis le roi de la danse, oh
+			La jungle est mes pieds
+			De la puissance, je suis au plus haut
+			Et pourtant je dois vous envier
+			Je voudrais devenir un homme
+			Ce serait merveilleux
+			Vivre pareil aux autres hommes loin des singes ennuyeux
+			Oh oupidou
+			Je voudrais marcher comme vous
+			Et parler comme vous
+			Faire comme vous, tout
+			Un singe comme moi
+			Pourrais, je crois,
+			Être parfois bien plus humain que vous
+			Ouais, oh, oh, oh ouh
+			Pourtant crois moi bien je suis pas dupe
+			Si je marchande avec vous
+			C'est que je désire le moyen d'être
+			Un homme un point c'est tout
+			Dis moi le secret pour être un homme
+			Est-ce vraiment si mystérieux
+			Pour moi faire éclore
+			La grande fleur rouge
+			Ce serait merveilleux.... alala	
+			 </li>
+
+			<li>Aie confiancee ssssssssssssssssssssss : <audio controls="controls"> <source src="https://www.youtube.com/watch?v=2gflQEF1WQU" type="audio/mp3" />Votre navigateur n'est pas compatible </audio>
+
+			Aie confiance crois en moi
+			Que je puisse veillez sur toi
+			Fais un somme sans méfiance
+			Je suis là, aie confiance
+			Le silence propice te berce
+			Souris et sois complice
+			Laisse tes sens glisser.......lalalal
+			 </li>
+
+
+			<li>ehhhhhhhhhhh ouiii au rythme de la jungle: <audio controls="controls"> <source src="https://www.youtube.com/watch?v=sV3EH_nXOlk" type="audio/mp3" />Votre navigateur n'est pas compatible </audio>
+
+			Quand le soleil se lève sur la montagne
+			Tous les rhinos se frottent les yeux
+			A l’appel du rythme de la jungle
+
+			Les hippos tap’ tap’ tap’ et résonnent
+			Et les abeilles ouvrent leurs ailes
+			Elles s’éveillent au rythme de la jungle
+			Où que tu ailles
+			Si tu quittes la jungle ..... lalaal
+			 </li>
+
+			<li>Sacree patrouille: <audio controls="controls"> <source src="https://www.youtube.com/watch?v=QwCchtSQHq4" type="audio/mp3" />Votre navigateur n'est pas compatible </audio>
+
+			Une, deux, une, deux, une, deux
+			Une, deux, une, deux, une, deux
+			Une, deux, une...
+			Compagnie... En mesure!
+			La patrouille des éléphants
+			S'achemine pesamment
+			La trompe en avant
+			Les oreilles au vent
+			Et circule militairement
+			Et circule militairement..........hmhmhmhm
+			 </li>
+
+			<li>C est vrai que c est important les amis : <audio controls="controls"> <source src="https://youtu.be/AXEF7j9JoGc" type="audio/mp3" />Votre navigateur n'est pas compatible </audio>
+
+			En amis, en amis
+			On sera toujours près de toi
+			Tout près de toi
+			Quand on est seul
+			Qui vient alors?
+			Vous apporter
+			(Fais-nous un sourire)
+			Le réconfort....lala
+			 </li>
+			</random>
+	</template>		
+	</category>	
+
+
+<category>
+		<pattern>BALOO MET MOI DE LA MUSIQUE</pattern>
+		<template><srai>MUSIQUE</srai></template>
+</category>
+
+
+<category>
+		<pattern>MET MOI DE LA MUSIQUE</pattern>
+		<template><srai>MUSIQUE</srai></template>
+</category>
+
+
+<category>
+		<pattern>LANCE DE LA MUSIQUE</pattern>
+		<template><srai>MUSIQUE</srai></template>
+</category>
+
+
+
+<category>
+		<pattern>PROPOSE MOI DE LA MUSIQUE</pattern>
+		<template><srai>MUSIQUE</srai></template>
+</category>
+
+
+
+	<category>
+		<pattern>QUEL EST TON STYLE DE MUSIQUE</pattern>
+		<template>J'adore le jazz!</template>
+	</category>
+
+
+</aiml>

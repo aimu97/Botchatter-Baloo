@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+	<category>
+		<pattern>AIDE</pattern>
+		<template>
+		<random>
+			<li> Tu peux me poser des questions. Si tu veux avoir plus de précisions, saisie: "Donne moi plus de précisions à propos de Baloo"</li>
+			<li> Tu peux me demander de te proposer des vidéos de musique sur le livre de la jungle. Si tu veux avoir plus de précisions,saisie: "Donne moi plus de précisions en musique"</li>
+			<li> Tu peux me demander de te présenter les personnages de la jungle. Si tu veux avoir plus de précisions, saisie: "Donne moi plus de précisions à propos des personnages de la jungle"</li>
+			<li>Je peux te proposer des petits souvenirs sur le livre de la jungle. Si tu veux avoir plus de précisions, saisie: "Donne moi plus de précisions sur les souvenirs"</li>
+			<li>Je sais traduire quelques mots en Arabe ou en Anglais. Si tu veux avoir plus de précisions, saisie: "Donne moi plus de précisions sur la traduction" ou "Quels sont les mots que tu sais traduire"</li>
+			<li>On peut jouer aux devinettes, saisie : "Je veux jouer aux devinettes"</li>
+		</random>
+	</template>
+	</category>	
+
+
+<category>
+	<pattern>TRADUCTION</pattern>
+	<template>Ma maîtresse m'a appris quelques mots en anglais et en arabe. Mais ton pauvre Baloo a une mémoire très courte. Je me rappelle de: "bonjour", "au revoir", "je m'appelle Baloo", "je suis un ours joyeux et paresseux", "je suis fan des fêtes et de la musique jazz". Veux-tu que je te traduit Bonjour en anglais?
+	</template>
+</category>
+
+<category>
+	<pattern>QUELS SONT LES MOTS QUE TU SAIS TRADUIRE</pattern>
+	<template><srai>TRADUCTION</srai></template>
+</category>
+
+
+<category>
+	<pattern>DONNE MOI PLUS DE PRECISIONS EN TRADUCTION</pattern>
+	<template><srai>TRADUCTION</srai></template>
+</category>
+
+
+<category>
+	<pattern>DONNE MOI PLUS DE PRECISIONS EN MUSIQUE</pattern>
+	<template>Tu peux me demander: "quel est mon style musical" ou de te "proposer des musiques de disney"</template>
+</category>
+
+<category>
+	<pattern>DONNE MOI PLUS DE PRECISIONS A PROPOS DES PERSONNAGES DE LA JUNGLE</pattern>
+	<template><srai>QUEL PERSONNAGE</srai></template>
+</category>
+
+<category>
+	<pattern>DONNE MOI PLUS DE PRECISIONS A PROPOS DE BALOO</pattern>
+	<template>TU peux me demander : Qui suis-je?, Peut-tu me parler de toi?, Puis-je avoir des précisions sur ta personnalité?, suis-je amoureux?, que fais-je ici? , quelle est ma couleur préferée? , qui est mon créateur? , Quel est mon style de musique?, quel est mon disney preféré?, où j'habite ?
+	</template>
+</category>
+
+
+
+<category>
+		<pattern>HELP</pattern>
+		<template><srai>AIDE</srai></template>
+</category>
+
+<category>
+		<pattern>AIDE MOI</pattern>
+		<template><srai>AIDE</srai></template>
+</category>
+
+<category>
+		<pattern>HELP ME</pattern>
+		<template><srai>AIDE</srai></template>
+</category>
+
+<category>
+		<pattern>J'AI BESOIN D'AIDE</pattern>
+		<template><srai>AIDE</srai></template>
+</category>
+
+<category>
+		<pattern>BALOO AIDE MOI</pattern>
+		<template><srai>AIDE</srai></template>
+</category>
+
+
+<category>
+	<pattern>OUI</pattern>
+	<that>AS-TU BESOIN D'AIDE</that>
+	<template><srai>AIDE</srai></template>
+</category>
+
+
+<category>
+	<pattern>OUAIS</pattern>
+	<that>AS-TU BESOIN D'AIDE</that>
+	<template><srai>AIDE</srai></template>
+</category>
+
+<category>
+	<pattern>OUAIP</pattern>
+	<that>AS-TU BESOIN D'AIDE</that>
+	<template><srai>AIDE</srai></template>
+</category>
+
+
+<category>
+	<pattern>Ok</pattern>
+	<template><random>
+				<li>Veux-tu que je te montre des photos des animaux de la jungle?</li>
+				<li>Veux-tu jouer au devinette avec moi</li>
+				<li>Veux-tu que je te traduit Bonjour en anglais?</li>
+				<li>Veux-tu que je te donne plus de précisions sur ma personnalité</li>
+				<li>Veux-tu que je me présente?</li>
+				<li>Veux-tu que je te propose des musiques du livre de la jungle</li>
+			</random>
+		</template>
+</category>
+<category>
+	<pattern>Ok *</pattern>
+	<template><random>
+				<li>Veux-tu que je te montre des photos des animaux de la jungle?</li>
+				<li>Veux-tu jouer au devinette avec moi</li>
+				<li>Veux-tu que je te traduit Bonjour en anglais?</li>
+				<li>Veux-tu que je te donne plus de précisions sur ma personnalité</li>
+				<li>Veux-tu que je me présente?</li>
+				<li>Veux-tu que je te propose des musiques du livre de la jungle</li>
+			</random>
+		</template>
+</category>
+
+<category>
+	<pattern>YEP</pattern>
+	<that>AS-TU BESOIN D'AIDE</that>
+	<template><srai>AIDE</srai></template>
+</category>
+
+<category>
+	<pattern>YES</pattern>
+	<that>AS-TU BESOIN D'AIDE</that>
+	<template><srai>AIDE</srai></template>
+</category>
+
+
+<category>
+	<pattern>NO</pattern>
+	<that>AS-TU BESOIN D'AIDE</that>
+	<template>Même si tu veux pas, je vais tout de même t'aider.<srai>AIDE</srai></template>
+</category>
+
+<category>
+	<pattern>NON</pattern>
+	<that>AS-TU BESOIN D'AIDE</that>
+	<template>Même si tu veux pas, je vais tout de même t'aider.<srai>AIDE</srai></template>
+</category>
+
+<category>
+	<pattern>NOPE</pattern>
+	<that>AS-TU BESOIN D'AIDE</that>
+	<template>Même si tu veux pas, je vais tout de même t'aider.<srai>AIDE</srai></template>
+</category>
+
+<category>
+	<pattern>OUI</pattern>
+	<that>AS-TU BESOIN D'AIDE</that>
+	<template><srai>AIDE</srai></template>
+</category>
+
+
+<category>
+	<pattern>OUAIS *</pattern>
+	<that>AS-TU BESOIN D'AIDE</that>
+	<template><srai>AIDE</srai></template>
+</category>
+
+<category>
+	<pattern>OUAIP *</pattern>
+	<that>AS-TU BESOIN D'AIDE</that>
+	<template><srai>AIDE</srai></template>
+</category>
+
+
+
+
+
+<category>
+	<pattern>YEP *</pattern>
+	<that>AS-TU BESOIN D'AIDE</that>
+	<template><srai>AIDE</srai></template>
+</category>
+
+<category>
+	<pattern>YES *</pattern>
+	<that>AS-TU BESOIN D'AIDE</that>
+	<template><srai>AIDE</srai></template>
+</category>
+
+
+<category>
+	<pattern>NO *</pattern>
+	<that>AS-TU BESOIN D'AIDE</that>
+	<template>Même si tu veux pas, je vais tout de même t'aider.<srai>AIDE</srai></template>
+</category>
+
+<category>
+	<pattern>NON</pattern>
+	<that>AS-TU BESOIN D'AIDE</that>
+	<template>Même si tu veux pas, je vais tout de même t'aider.<srai>AIDE</srai></template>
+</category>
+
+<category>
+	<pattern>NOPE *</pattern>
+	<that>AS-TU BESOIN D'AIDE</that>
+	<template>Même si tu veux pas, je vais tout de même t'aider.<srai>AIDE</srai></template>
+</category>
+
+</aiml>

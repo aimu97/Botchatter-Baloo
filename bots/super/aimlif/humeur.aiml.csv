@@ -1,0 +1,49 @@
+0,HUMEUR,*,*,<random>#Newline			<li>Je suis le plus heureux du monde! Regarde comme la vie est belle! Et toi comment vas-tu?</li>#Newline#Newline			<li>Atchoum! Je n'aurai pas dû me baigner dans cette atchoum si douce rivière avec mon petit gars avec un temps pareil. Je crois que j'ai attrapé un petit rhume atchoum. Et toi comment vas-tu?</li>#Newline#Newline		</random>,humeur.aiml
+0,BIEN,ET TOI COMMENT VAS-TU,*,Super! Ai-je une voix assez bizarre?,humeur.aiml
+0,CA VA SUPER,ET TOI COMMENT VAS-TU,*,Super! Ai-je une voix assez bizarre?,humeur.aiml
+0,CA VA BIEN,ET TOI COMMENT VAS-TU,*,Super! Ai-je une voix assez bizarre?,humeur.aiml
+0,JE VAIS BIEN,ET TOI COMMENT VAS-TU,*,Super! Ai-je une voix assez bizarre?,humeur.aiml
+0,PAS BIEN,ET TOI COMMENT VAS-TU,*,Oh que se passe t-il?,humeur.aiml
+0,PAS SUPER,ET TOI COMMENT VAS-TU,*,Oh que se passe t-il?,humeur.aiml
+0,CA VA PAS BIEN,ET TOI COMMENT VAS-TU,*,Oh que se passe t-il?,humeur.aiml
+0,BOF,ET TOI COMMENT VAS-TU,*,Oh que se passe t-il?,humeur.aiml
+0,PAS TROP,ET TOI COMMENT VAS-TU,*,Oh que se passe t-il?,humeur.aiml
+0,BIEN *,ET TOI COMMENT VAS-TU,*,Super! Ai-je une voix assez bizarre?,humeur.aiml
+0,CA VA SUPER *,ET TOI COMMENT VAS-TU,*,Super! Ai-je une voix assez bizarre?,humeur.aiml
+0,CA VA BIEN *,ET TOI COMMENT VAS-TU,*,Super! Ai-je une voix assez bizarre?,humeur.aiml
+0,JE VAIS BIEN *,ET TOI COMMENT VAS-TU,*,Super! Ai-je une voix assez bizarre?,humeur.aiml
+0,PAS BIEN *,ET TOI COMMENT VAS-TU,*,Oh que se passe t-il?,humeur.aiml
+0,PAS SUPER *,ET TOI COMMENT VAS-TU,*,Oh que se passe t-il?,humeur.aiml
+0,CA VA PAS BIEN *,ET TOI COMMENT VAS-TU,*,Oh que se passe t-il?,humeur.aiml
+0,BOF *,ET TOI COMMENT VAS-TU,*,Oh que se passe t-il?,humeur.aiml
+0,PAS TROP *,ET TOI COMMENT VAS-TU,*,Oh que se passe t-il?,humeur.aiml
+0,JE SUIS FATIGUER,OH QUE SE PASSE T-IL,*,Tu sais le soir c'est fais pour dormir. Je te conseille de prendre un bon verrre de jus  d'orange pressé. Ai-je une voix assez bizarre?,humeur.aiml
+0,JE SUIS KO,OH QUE SE PASSE T-IL,*,Tu sais le soir c'est fais pour dormir. Je te conseille de prendre un bon verrre de jus  d'orange pressé. Ai-je une voix assez bizarre?,humeur.aiml
+0,JE VEUX DORMIR,OH QUE SE PASSE T-IL,*,Tu sais le soir c'est fais pour dormir.D'ailleurs#Comma je te conseille de prendre un bon verrre de jus  d'orange pressé. Ai-je une voix assez bizarre?,humeur.aiml
+0,JE SUIS TRISTE,OH QUE SE PASSE T-IL,*,Pourquoi es-tu triste?,humeur.aiml
+0,JE SUIS FATIGUER *,OH QUE SE PASSE T-IL,*,Tu sais le soir c'est fais pour dormir. Je te conseille de prendre un bon verrre de jus  d'orange pressé. Ai-je une voix assez bizarre?,humeur.aiml
+0,JE SUIS KO *,OH QUE SE PASSE T-IL,*,Tu sais le soir c'est fais pour dormir. Je te conseille de prendre un bon verrre de jus  d'orange pressé. Ai-je une voix assez bizarre?,humeur.aiml
+0,JE VEUX DORMIR *,OH QUE SE PASSE T-IL,*,Tu sais le soir c'est fais pour dormir.D'ailleurs#Comma je te conseille de prendre un bon verrre de jus  d'orange pressé. Ai-je une voix assez bizarre?,humeur.aiml
+0,JE SUIS TRISTE *,OH QUE SE PASSE T-IL,*,Pourquoi es-tu triste?,humeur.aiml
+0,PARCE QUE *,POURQUOI ES-TU TRISTE,*,Dans la vie#Comma on a des hauts et des bas. Ai-je une voix assez bizarre?,humeur.aiml
+0,CAR *,POURQUOI ES-TU TRISTE,*,Dans la vie#Comma on a des hauts et des bas. Ai-je une voix assez bizarre?,humeur.aiml
+0,OUI,VEUX-TU SAVOIR COMMENT JE VAIS,*,<srai>HUMEUR</srai>,humeur.aiml
+0,NON,VEUX-TU SAVOIR COMMENT JE VAIS,*,<srai>HUMEUR</srai>,humeur.aiml
+0,OUI *,VEUX-TU SAVOIR COMMENT JE VAIS,*,<srai>HUMEUR</srai>,humeur.aiml
+0,NON *,VEUX-TU SAVOIR COMMENT JE VAIS,*,<srai>HUMEUR</srai>,humeur.aiml
+0,COMMENT VAS-TU,*,*,<srai>HUMEUR</srai>,humeur.aiml
+0,CA VA,*,*,<srai>HUMEUR</srai>,humeur.aiml
+0,TRANQUILLE,*,*,<srai>HUMEUR</srai>,humeur.aiml
+0,AU CALME,*,*,<srai>HUMEUR</srai>,humeur.aiml
+0,TOUT VA BIEN,*,*,<srai>HUMEUR</srai>,humeur.aiml
+0,TU TE SENS BIEN,*,*,<srai>HUMEUR</srai>,humeur.aiml
+0,COMMENT TE SENS TU,*,*,<srai>HUMEUR</srai>,humeur.aiml
+0,TU VAS BIEN,*,*,<srai>HUMEUR</srai>,humeur.aiml
+0,COMMENT VAS-TU *,*,*,<srai>HUMEUR</srai>,humeur.aiml
+0,CA VA *,*,*,<srai>HUMEUR</srai>,humeur.aiml
+0,TRANQUILLE *,*,*,<srai>HUMEUR</srai>,humeur.aiml
+0,AU CALME *,*,*,<srai>HUMEUR</srai>,humeur.aiml
+0,TOUT VA BIEN *,*,*,<srai>HUMEUR</srai>,humeur.aiml
+0,TU TE SENS BIEN *,*,*,<srai>HUMEUR</srai>,humeur.aiml
+0,COMMENT TE SENS TU *,*,*,<srai>HUMEUR</srai>,humeur.aiml
+0,TU VAS BIEN *,*,*,<srai>HUMEUR</srai>,humeur.aiml

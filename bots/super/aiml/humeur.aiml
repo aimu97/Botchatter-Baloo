@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+	<pattern>HUMEUR</pattern>
+	<template>
+		<random>
+			<li>Je suis le plus heureux du monde! Regarde comme la vie est belle! Et toi comment vas-tu?</li>
+
+			<li>Atchoum! Je n'aurai pas dû me baigner dans cette atchoum si douce rivière avec mon petit gars avec un temps pareil. Je crois que j'ai attrapé un petit rhume atchoum. Et toi comment vas-tu?</li>
+
+		</random>
+	</template>
+</category>
+
+
+
+
+<category>
+	<pattern>JE VAIS BIEN</pattern>
+	<that>ET TOI COMMENT VAS-TU</that>
+	<template>Super! Ai-je une voix assez bizarre?</template>
+</category>
+
+
+<category>
+	<pattern>JE VAIS BIEN *</pattern>
+	<that>ET TOI COMMENT VAS-TU</that>
+	<template>Super! Ai-je une voix assez bizarre?</template>
+</category>
+
+
+<category>
+	<pattern>BIEN</pattern>
+	<that>ET TOI COMMENT VAS-TU</that>
+	<template>Super! Ai-je une voix assez bizarre?</template>
+</category>
+
+<category>
+	<pattern>CA VA SUPER</pattern>
+	<that>ET TOI COMMENT VAS-TU</that>
+	<template>Super! Ai-je une voix assez bizarre?</template>
+</category>
+
+<category>
+	<pattern>CA VA BIEN</pattern>
+	<that>ET TOI COMMENT VAS-TU</that>
+	<template>Super! Ai-je une voix assez bizarre?</template>
+</category>
+
+<category>
+	<pattern>JE VAIS BIEN</pattern>
+	<that>ET TOI COMMENT VAS-TU</that>
+	<template>Super! Ai-je une voix assez bizarre?</template>
+</category>
+
+
+<category>
+	<pattern>PAS BIEN</pattern>
+	<that>ET TOI COMMENT VAS-TU</that>
+	<template>Oh que se passe t-il?</template>
+</category>
+
+<category>
+	<pattern>PAS SUPER</pattern>
+	<that>ET TOI COMMENT VAS-TU</that>
+	<template>Oh que se passe t-il?</template>
+</category>
+
+<category>
+	<pattern>CA VA PAS BIEN</pattern>
+	<that>ET TOI COMMENT VAS-TU</that>
+	<template>Oh que se passe t-il?</template>
+</category>
+
+<category>
+	<pattern>BOF</pattern>
+	<that>ET TOI COMMENT VAS-TU</that>
+	<template>Oh que se passe t-il?</template>
+</category>
+
+<category>
+	<pattern>PAS TROP</pattern>
+	<that>ET TOI COMMENT VAS-TU</that>
+	<template>Oh que se passe t-il?</template>
+</category>
+
+<category>
+	<pattern>BIEN *</pattern>
+	<that>ET TOI COMMENT VAS-TU</that>
+	<template>Super! Ai-je une voix assez bizarre?</template>
+</category>
+
+<category>
+	<pattern>CA VA SUPER *</pattern>
+	<that>ET TOI COMMENT VAS-TU</that>
+	<template>Super! Ai-je une voix assez bizarre?</template>
+</category>
+
+<category>
+	<pattern>CA VA BIEN *</pattern>
+	<that>ET TOI COMMENT VAS-TU</that>
+	<template>Super! Ai-je une voix assez bizarre?</template>
+</category>
+
+<category>
+	<pattern>JE VAIS BIEN *</pattern>
+	<that>ET TOI COMMENT VAS-TU</that>
+	<template>Super! Ai-je une voix assez bizarre?</template>
+</category>
+
+
+<category>
+	<pattern>PAS BIEN *</pattern>
+	<that>ET TOI COMMENT VAS-TU</that>
+	<template>Oh que se passe t-il?</template>
+</category>
+
+<category>
+	<pattern>PAS SUPER *</pattern>
+	<that>ET TOI COMMENT VAS-TU</that>
+	<template>Oh que se passe t-il?</template>
+</category>
+
+<category>
+	<pattern>CA VA PAS BIEN *</pattern>
+	<that>ET TOI COMMENT VAS-TU</that>
+	<template>Oh que se passe t-il?</template>
+</category>
+
+<category>
+	<pattern>BOF *</pattern>
+	<that>ET TOI COMMENT VAS-TU</that>
+	<template>Oh que se passe t-il?</template>
+</category>
+
+<category>
+	<pattern>PAS TROP *</pattern>
+	<that>ET TOI COMMENT VAS-TU</that>
+	<template>Oh que se passe t-il?</template>
+</category>
+
+<category>
+	<pattern>JE SUIS FATIGUER</pattern>
+	<that>OH QUE SE PASSE T-IL</that>
+	<template>Tu sais le soir c'est fais pour dormir. Je te conseille de prendre un bon verrre de jus  d'orange pressé. Ai-je une voix assez bizarre?</template>
+</category>
+
+<category>
+	<pattern>JE SUIS KO</pattern>
+	<that>OH QUE SE PASSE T-IL</that>
+	<template>Tu sais le soir c'est fais pour dormir. Je te conseille de prendre un bon verrre de jus  d'orange pressé. Ai-je une voix assez bizarre?</template>
+</category>
+
+
+<category>
+	<pattern>JE VEUX DORMIR</pattern>
+	<that>OH QUE SE PASSE T-IL</that>
+	<template>Tu sais le soir c'est fais pour dormir.D'ailleurs, je te conseille de prendre un bon verrre de jus  d'orange pressé. Ai-je une voix assez bizarre?</template>
+</category>
+
+
+<category>
+	<pattern>JE SUIS TRISTE</pattern>
+	<that>OH QUE SE PASSE T-IL</that>
+	<template>Pourquoi es-tu triste?</template>
+</category>
+
+
+
+<category>
+	<pattern>JE SUIS FATIGUER *</pattern>
+	<that>OH QUE SE PASSE T-IL</that>
+	<template>Tu sais le soir c'est fais pour dormir. Je te conseille de prendre un bon verrre de jus  d'orange pressé. Ai-je une voix assez bizarre?</template>
+</category>
+
+<category>
+	<pattern>JE SUIS KO *</pattern>
+	<that>OH QUE SE PASSE T-IL</that>
+	<template>Tu sais le soir c'est fais pour dormir. Je te conseille de prendre un bon verrre de jus  d'orange pressé. Ai-je une voix assez bizarre?</template>
+</category>
+
+
+<category>
+	<pattern>JE VEUX DORMIR *</pattern>
+	<that>OH QUE SE PASSE T-IL</that>
+	<template>Tu sais le soir c'est fais pour dormir.D'ailleurs, je te conseille de prendre un bon verrre de jus  d'orange pressé. Ai-je une voix assez bizarre?</template>
+</category>
+
+
+<category>
+	<pattern>JE SUIS TRISTE *</pattern>
+	<that>OH QUE SE PASSE T-IL</that>
+	<template>Pourquoi es-tu triste?</template>
+</category>
+
+
+<category>
+	<pattern>PARCE QUE *</pattern>
+	<that>POURQUOI ES-TU TRISTE</that>
+	<template>Dans la vie, on a des hauts et des bas. Ai-je une voix assez bizarre?</template>
+</category>
+
+<category>
+	<pattern>CAR *</pattern>
+	<that>POURQUOI ES-TU TRISTE</that>
+	<template>Dans la vie, on a des hauts et des bas. Ai-je une voix assez bizarre?</template>
+</category>
+
+
+
+<category>
+	<pattern>OUI</pattern>
+	<that>VEUX-TU SAVOIR COMMENT JE VAIS</that>
+	<template><srai>HUMEUR</srai></template>
+</category>
+
+<category>
+	<pattern>NON</pattern>
+	<that>VEUX-TU SAVOIR COMMENT JE VAIS</that>
+	<template><srai>HUMEUR</srai></template>
+</category>
+
+<category>
+	<pattern>OUI *</pattern>
+	<that>VEUX-TU SAVOIR COMMENT JE VAIS</that>
+	<template><srai>HUMEUR</srai></template>
+</category>
+
+<category>
+	<pattern>NON *</pattern>
+	<that>VEUX-TU SAVOIR COMMENT JE VAIS</that>
+	<template><srai>HUMEUR</srai></template>
+</category>
+
+
+
+<category>
+	<pattern>COMMENT VAS-TU</pattern>
+	<template><srai>HUMEUR</srai></template>
+</category>
+
+<category>
+	<pattern>COMMENT VAS-TU</pattern>
+	<template><srai>HUMEUR</srai></template>
+</category>
+
+<category>
+	<pattern>CA VA</pattern>
+	<template><srai>HUMEUR</srai></template>
+</category>
+
+<category>
+	<pattern>TRANQUILLE</pattern>
+	<template><srai>HUMEUR</srai></template>
+</category>
+
+<category>
+	<pattern>AU CALME</pattern>
+	<template><srai>HUMEUR</srai></template>
+</category>
+
+<category>
+	<pattern>TOUT VA BIEN</pattern>
+	<template><srai>HUMEUR</srai></template>
+</category>
+
+<category>
+	<pattern>TU TE SENS BIEN</pattern>
+	<template><srai>HUMEUR</srai></template>
+</category>
+
+<category>
+	<pattern>COMMENT TE SENS TU</pattern>
+	<template><srai>HUMEUR</srai></template>
+</category>
+
+<category>
+	<pattern>TU VAS BIEN</pattern>
+	<template><srai>HUMEUR</srai></template>
+</category>
+
+<category>
+	<pattern>COMMENT VAS-TU *</pattern>
+	<template><srai>HUMEUR</srai></template>
+</category>
+
+<category>
+	<pattern>CA VA *</pattern>
+	<template><srai>HUMEUR</srai></template>
+</category>
+
+<category>
+	<pattern>TRANQUILLE *</pattern>
+	<template><srai>HUMEUR</srai></template>
+</category>
+
+<category>
+	<pattern>AU CALME *</pattern>
+	<template><srai>HUMEUR</srai></template>
+</category>
+
+<category>
+	<pattern>TOUT VA BIEN *</pattern>
+	<template><srai>HUMEUR</srai></template>
+</category>
+
+<category>
+	<pattern>TU TE SENS BIEN *</pattern>
+	<template><srai>HUMEUR</srai></template>
+</category>
+
+<category>
+	<pattern>COMMENT TE SENS TU *</pattern>
+	<template><srai>HUMEUR</srai></template>
+</category>
+
+<category>
+	<pattern>TU VAS BIEN *</pattern>
+	<template><srai>HUMEUR</srai></template>
+</category>
+
+
+
+
+</aiml>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

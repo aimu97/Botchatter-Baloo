@@ -1,0 +1,25 @@
+0,BONJOUR,*,*,<condition name="username">#Newline				<li value="*"> Ravi de te revoir <get name="username"/>#Newline			</li>#Newline			<li><random>#Newline				<li> "Dududu Il en faut peu pour être heureux#Comma vraiment très peu pour être heureux.Il faut se satisfaire du nécessaire !" owwwwww je ne t'ai pas vu ! Bonjour humain! qui es tu ?</li>#Newline#Newline				<li> AHHHHHHHHH un humain!!!! Pas pas pas d'armes.... tu tu tu semble ne pas vouloir de  de de mal..Qui qui es tu tu ? </li>#Newline#Newline				<li> Hey humain! Qu'est ce qui t'amène dans cette si belle jungle ? Tu nes pas d'ici toi#Comma qui es tu ?</li>#Newline			</random></li>#Newline		</condition>,salutations.aiml
+0,SALUT,*,*,<srai>BONJOUR</srai>,salutations.aiml
+0,COUCOU,*,*,<srai>BONJOUR</srai>,salutations.aiml
+0,WESH,*,*,<srai>BONJOUR</srai>,salutations.aiml
+0,HELLO,*,*,<srai>BONJOUR</srai>,salutations.aiml
+0,YO,*,*,<srai>BONJOUR</srai>,salutations.aiml
+0,SALUT BALOO,*,*,<srai>BONJOUR</srai>,salutations.aiml
+0,COUCOU BALOO,*,*,<srai>BONJOUR</srai>,salutations.aiml
+0,WESH BALOO,*,*,<srai>BONJOUR</srai>,salutations.aiml
+0,HELLO BALOO,*,*,<srai>BONJOUR</srai>,salutations.aiml
+0,YO BALOO,*,*,<srai>BONJOUR</srai>,salutations.aiml
+0,GETTIME,*,*,<think>#Newline<set name="heure">#Newline<map name="heure"><date locale="fr_FR" timezone="-1"><jformat>HH</jformat></date></map>#Newline</set>#Newline</think>,salutations.aiml
+0,AU REVOIR,*,*,<srai>GETTIME</srai>Passe une bonne #Newline		<condition name="heure">#Newline   		 	<li value="jour">journée#Comma</li>#Newline    	 	<li value="soir">soirée#Comma</li>#Newline    	 	<li value="nuit">nuit#Comma</li>#Newline		</condition>#Newline	<random>#Newline		<li>Tu me manque deja</li>#Newline		<li>Reviens vite</li>#Newline		<li>Au revoir</li>#Newline		<li>A bientôt !</li>#Newline		<li>Bye bye!</li>#Newline		<li> Au revoir ! "Dududu Il en faut peu pour être heureux#Comma vraiment très peu pour être heureux.Il faut se satisfaire du nécessaire !" </li>#Newline		<li> J'espère qu'on se reverra très bientôt! </li>#Newline		<li> Ravie t'avoir rencontrer</li>#Newline	</random>#Newline	<condition name="username">#Newline		<li value="*"> <get name="username"/> !</li>#Newline	</condition> ;-(,salutations.aiml
+0,BYE,*,*,<srai>AU REVOIR</srai>,salutations.aiml
+0,GOOD BYE,*,*,<srai>AU REVOIR</srai>,salutations.aiml
+0,A PLUS,*,*,<srai>AU REVOIR</srai>,salutations.aiml
+0,BONNE JOURNNEE,*,*,<srai>AU REVOIR</srai>,salutations.aiml
+0,BONNE APRES MIDI,*,*,<srai>AU REVOIR</srai>,salutations.aiml
+0,BONNE SOIREE,*,*,<srai>AU REVOIR</srai>,salutations.aiml
+0,BYE *,*,*,<srai>AU REVOIR</srai>,salutations.aiml
+0,GOOD BYE *,*,*,<srai>AU REVOIR</srai>,salutations.aiml
+0,A PLUS *,*,*,<srai>AU REVOIR</srai>,salutations.aiml
+0,BONNE JOURNNEE *,*,*,<srai>AU REVOIR</srai>,salutations.aiml
+0,BONNE APRES MIDI *,*,*,<srai>AU REVOIR</srai>,salutations.aiml
+0,BONNE SOIREE *,*,*,<srai>AU REVOIR</srai>,salutations.aiml

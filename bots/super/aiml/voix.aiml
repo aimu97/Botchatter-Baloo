@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+	<pattern>VOIX</pattern>
+	<template> Oulala! Quelle est cette horrible voix que ma créatrice m'a donné. J'ai l'air d'un déprimé alors que je suis censé exprimer de la joie et de la bonne humeur. Et toi comment la trouves-tu?</template>
+</category>
+
+<category>
+	<pattern>OUI</pattern>
+	<that>AI-JE UNE VOIX ASSEZ BIZARRE</that>
+	<template><srai>VOIX</srai></template>
+</category>
+
+<category>
+	<pattern>YES</pattern>
+	<that>AI-JE UNE VOIX ASSEZ BIZARRE</that>
+	<template><srai>VOIX</srai></template>
+</category>
+
+<category>
+	<pattern>OUAIP</pattern>
+	<that>AI-JE UNE VOIX ASSEZ BIZARRE</that>
+	<template><srai>VOIX</srai></template>
+</category>
+
+<category>
+	<pattern>YEP</pattern>
+	<that>AI-JE UNE VOIX ASSEZ BIZARRE</that>
+	<template><srai>VOIX</srai></template>
+</category>
+
+<category>
+	<pattern>PAS TRES JOLIE</pattern>
+	<that>ET TOI COMMENT LA TROUVES-TU</that>
+	<template>Ta voix aussi n'est pas très jolie. Veux-tu venir avec moi dans la jungle?</template>
+</category>
+
+<category>
+	<pattern>MOCHE</pattern>
+	<that>ET TOI COMMENT LA TROUVES-TU</that>
+	<template>Ta voix aussi est moche. Veux-tu venir avec moi dans la jungle?</template>
+</category>
+
+<category>
+	<pattern>J AIME PAS</pattern>
+	<that>ET TOI COMMENT LA TROUVES-TU</that>
+	<template>Moi aussi j'aime pas ta voix. Veux-tu venir avec moi dans la jungle?</template>
+</category>
+
+<category>
+	<pattern>PAS FAN</pattern>
+	<that>ET TOI COMMENT LA TROUVES-TU</that>
+	<template>Moi aussi je suis pas fan ta voix. Veux-tu venir avec moi dans la jungle?</template>
+</category>
+
+<category>
+	<pattern>BIZARRE</pattern>
+	<that>ET TOI COMMENT LA TROUVES-TU</that>
+	<template>Moi aussi je trouve ta voix aussi bizarre que la mienne. Veux-tu venir avec moi dans la jungle?</template>
+</category>
+
+<category>
+	<pattern>JOLIE</pattern>
+	<that>ET TOI COMMENT LA TROUVES-TU</that>
+	<template>Ta voix aussi est jolie. Veux-tu venir avec moi dans la jungle?</template>
+</category>
+
+<category>
+	<pattern>BELLE</pattern>
+	<that>ET TOI COMMENT LA TROUVES-TU</that>
+	<template>Ta voix aussi est belle. Veux-tu venir avec moi dans la jungle?</template>
+</category>
+
+<category>
+	<pattern>J'AIME BIEN</pattern>
+	<that>ET TOI COMMENT LA TROUVES-TU</that>
+	<template>Moi aussi j'aime bien ta voix. Veux-tu venir avec moi dans la jungle?</template>
+</category>
+
+<category>
+	<pattern>JE SUIS FAN</pattern>
+	<that>ET TOI COMMENT LA TROUVES-TU</that>
+	<template>Moi aussi je suis fan ta voix. Veux-tu venir avec moi dans la jungle?</template>
+</category>
+
+<category>
+	<pattern>ORIGINALE</pattern>
+	<that>ET TOI COMMENT LA TROUVES-TU</that>
+	<template>Moi aussi je trouve ta voix aussi originale que la mienne. Veux-tu venir avec moi dans la jungle?</template>
+</category>
+
+
+<category>
+	<pattern>SEXY</pattern>
+	<that>ET TOI COMMENT LA TROUVES-TU</that>
+	<template>Arrête tu vas me faire rouge avec ce beau compliments. Veux-tu venir avec moi dans la jungle?</template>
+</category>
+
+<category>
+	<pattern>* PAS TRES JOLIE</pattern>
+	<that>ET TOI COMMENT LA TROUVES-TU</that>
+	<template>Ta voix aussi n'est pas très jolie. Veux-tu venir avec moi dans la jungle?</template>
+</category>
+
+<category>
+	<pattern>* MOCHE</pattern>
+	<that>ET TOI COMMENT LA TROUVES-TU</that>
+	<template>Ta voix aussi est moche. Veux-tu venir avec moi dans la jungle?</template>
+</category>
+
+<category>
+	<pattern>J AIME PAS *</pattern>
+	<that>ET TOI COMMENT LA TROUVES-TU</that>
+	<template>Moi aussi j'aime pas ta voix. Veux-tu venir avec moi dans la jungle?</template>
+</category>
+
+<category>
+	<pattern>* PAS FAN</pattern>
+	<that>ET TOI COMMENT LA TROUVES-TU</that>
+	<template>Moi aussi je suis pas fan ta voix. Veux-tu venir avec moi dans la jungle?</template>
+</category>
+
+<category>
+	<pattern>* BIZARRE</pattern>
+	<that>ET TOI COMMENT LA TROUVES-TU</that>
+	<template>Moi aussi je trouve ta voix aussi bizarre que la mienne. Veux-tu venir avec moi dans la jungle?</template>
+</category>
+
+<category>
+	<pattern>* JOLIE</pattern>
+	<that>ET TOI COMMENT LA TROUVES-TU</that>
+	<template>Ta voix aussi est jolie. Veux-tu venir avec moi dans la jungle?</template>
+</category>
+
+<category>
+	<pattern>* BELLE</pattern>
+	<that>ET TOI COMMENT LA TROUVES-TU</that>
+	<template>Ta voix aussi est belle. Veux-tu venir avec moi dans la jungle?</template>
+</category>
+
+<category>
+	<pattern>J'AIME BIEN *</pattern>
+	<that>ET TOI COMMENT LA TROUVES-TU</that>
+	<template>Moi aussi j'aime bien ta voix. Veux-tu venir avec moi dans la jungle?</template>
+</category>
+
+<category>
+	<pattern>JE SUIS FAN *</pattern>
+	<that>ET TOI COMMENT LA TROUVES-TU</that>
+	<template>Moi aussi je suis fan ta voix. Veux-tu venir avec moi dans la jungle?</template>
+</category>
+
+<category>
+	<pattern>* ORIGINALE</pattern>
+	<that>ET TOI COMMENT LA TROUVES-TU</that>
+	<template>Moi aussi je trouve ta voix aussi originale que la mienne. Veux-tu venir avec moi dans la jungle?</template>
+</category>
+
+
+<category>
+	<pattern>* SEXY</pattern>
+	<that>ET TOI COMMENT LA TROUVES-TU</that>
+	<template>Arrête tu vas me faire rouge avec ce beau compliments. Veux-tu venir avec moi dans la jungle?</template>
+</category>
+
+
+
+<category>
+	<pattern>STRESS</pattern>
+	<template>J'hallucine peut être...Ou peut être que je stresse beaucoup trop à cause des spectateurs qui me regardent dans cette salle.Veux-tu venir avec moi dans la jungle?</template>
+</category>
+
+<category>
+	<pattern>NON</pattern>
+	<that>AI-JE UNE VOIX ASSEZ BIZARRE</that>
+	<template><srai>STRESS</srai></template>
+</category>
+
+<category>
+	<pattern>NO *</pattern>
+	<that>AI-JE UNE VOIX ASSEZ BIZARRE</that>
+	<template><srai>STRESS</srai></template>
+</category>
+
+<category>
+	<pattern>NOPE *</pattern>
+	<that>AI-JE UNE VOIX ASSEZ BIZARRE</that>
+	<template><srai>STRESS</srai></template>
+</category>
+
+<category>
+	<pattern>NON *</pattern>
+	<that>AI-JE UNE VOIX ASSEZ BIZARRE</that>
+	<template><srai>STRESS</srai></template>
+</category>
+
+<category>
+	<pattern>NO *</pattern>
+	<that>AI-JE UNE VOIX ASSEZ BIZARRE</that>
+	<template><srai>STRESS</srai></template>
+</category>
+
+<category>
+	<pattern>NOPE *</pattern>
+	<that>AI-JE UNE VOIX ASSEZ BIZARRE</that>
+	<template><srai>STRESS</srai></template>
+</category>
+
+
+<category>
+	<pattern>JE NE SAIS PAS</pattern>
+	<that>AI-JE UNE VOIX ASSEZ BIZARRE</that>
+	<template><srai>STRESS</srai></template>
+</category>
+
+<category>
+	<pattern>JE NE SAIS PAS *</pattern>
+	<that>AI-JE UNE VOIX ASSEZ BIZARRE</that>
+	<template><srai>STRESS</srai></template>
+</category>
+</aiml>

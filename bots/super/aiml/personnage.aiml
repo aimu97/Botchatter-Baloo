@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+
+	<category>
+		<pattern>OUI</pattern>
+		<that>VEUX-TU JOUER AU DEVINETTE AVEC MOI</that>
+		<template>Voyons voir si tu connais bien le livre de la jungle.Es-tu pret?</template>
+	</category>
+
+
+	<category>
+		<pattern>NON</pattern>
+		<that>VEUX-TU JOUER AU DEVINETTE AVEC MOI</that>
+		<template><srai>TRADUCTION</srai></template>
+	</category>
+
+		<category>
+		<pattern>NON</pattern>
+		<that>VEUX-TU JOUER AU DEVINETTE AVEC MOI</that>
+		<template><srai>TRADUCTION</srai></template>
+	</category>
+
+		<category>
+			<pattern>NON</pattern>
+			<that>ES-TU PRET</that>
+			<template><srai>TRADUCTION</srai></template>
+		</category>
+
+
+	<category>
+		<pattern>OUI</pattern>
+		<that>ES-TU PRET</that>
+		<template>Je suis la menace principale de la jungle et craint les humain comme toi et surtout les enfants! Je suis un véritable prédateur cruel et sans pitié, .Ma seule peur est le feu! Qui suis-je?</template>
+	</category>
+
+	<category>
+		<pattern>C'EST SHERE KHAN</pattern>
+		<that>QUI SUIS-JE</that>
+		<template>Bien joué! Regarde comme il est adorable! <img src="https://www.animationsource.org/sites_content/jungle_book/img_site/Kahni.jpg"/> 
+		Shere Khan est un puissant tigre du Bengal avide de vengeance envers les hommes. Manipulateur envers les autres animaux, il use de la peur pour convaincre quiconque de lui obéir.Une autre?</template>
+	</category>
+
+	<category>
+		<pattern>JE NE SAIS PAS</pattern>
+		<that>QUI SUIS-JE</that>
+		<template>C'est Shere Khan!<img src="https://www.animationsource.org/sites_content/jungle_book/img_site/Kahni.jpg"/> 
+		Shere Khan est un puissant tigre du Bengal avide de vengeance envers les hommes. Manipulateur envers les autres animaux, il use de la peur pour convaincre quiconque de lui obéir.Une autre?</template>
+	</category>
+
+	<category>
+		<pattern>*</pattern>
+		<that>QUI SUIS-JE</that>
+		<template>C'est Shere Khan! <img src="https://www.animationsource.org/sites_content/jungle_book/img_site/Kahni.jpg"/> 
+		Shere Khan est un puissant tigre du Bengal avide de vengeance envers les hommes. Manipulateur envers les autres animaux, il use de la peur pour convaincre quiconque de lui obéir.Une autre?</template>
+	</category>
+
+
+	<category>
+		<pattern>NON</pattern>
+		<that>UNE AUTRE</that>
+		<template><srai>TRADUCTION</srai></template>
+	</category>
+
+	<category>
+		<pattern>OUI</pattern>
+		<that>UNE AUTRE</that>
+		<template>
+			<random>
+				<li>Je suis un solitaire et rusé.Je use de la persuation et de mon talent d'hypnotise pour tenter d'arriver à mes fins.Je n'ai pas peur de qui que ce soit à part Shere Khan. Quel reponse donneras tu?</li>
+				<li>Je suis très attaché à Mowgli, je le défend contre tout type de situation. C'est grâce moi que le petit homme a survécu, car je suis celui qui a pris pitié de lui et je l'ai mis en sécurité chez les loups. Quel serait la reponse?</li>
+				<li>Je connaît bien mal les dangers de la jungle.Et je suis têtu. Qui est-ce?</li>
+				<li>J'ai un bon vivant qui prend la vie comme elle me vient, à la légère.Je suis un costaud au grand coeur, il s'avère que je suis tendre et compréhensif et surtout,fidèle à l'amitié que je porte. Comment m'appelle t-on?</li>
+				<li>Je suis la compagne du Colonel Hathi.Je suis une maman attentionnée. As-tu trouve?</li>
+				<li>Je suis une amie proche de Mowgli. C'est?</li>
+				<li>Je suis est un orang-outang aspirant à être humain.Je veux découvrir le secret de l'homme, tout particulièrement la recette qui me permettrait de créer le feu. La reponse est?</li>
+				<li>Je suis réputé pour ma fermeté et mon sens de la discipline, il s'avère que je suis intolérant et déterminé à préserver mon honneur et mon rang. Je suis également papa. Donc?</li>
+				<li>Je suis un jeune petit éléphanteau qui désire un jour devenir colonel comme mon papa. Je suis?</li>
+				<li>Je suis le père adoptif de Mowgli. Ce personnage est?</li>
+			</random>
+		</template>
+	</category>
+
+	<category>
+		<pattern>C'EST KAA</pattern>
+		<that>QUEL REPONSE DONNERAS TU</that>
+		<template>Bien joué! <img src="https://disney-planet.fr/wp-content/uploads/2015/08/kaa-personnage-livre-jungle-06.jpg"/>. Une autre?</template>
+	</category>
+
+	<category>
+		<pattern>JE NE SAIS PAS</pattern>
+		<that>QUEL REPONSE DONNERAS TU</that>
+		<template>C'est Kaa:<img src="https://disney-planet.fr/wp-content/uploads/2015/08/kaa-personnage-livre-jungle-06.jpg"/>. Une autre?</template>
+	</category>
+
+	<category>
+		<pattern>*</pattern>
+		<that>QUEL REPONSE DONNERAS TU</that>
+		<template>C'est Kaa:<img src="https://disney-planet.fr/wp-content/uploads/2015/08/kaa-personnage-livre-jungle-06.jpg"/>. Une autre?</template>
+	</category>
+
+
+	<category>
+		<pattern>C'EST BAGHEERA</pattern>
+		<that>QUEL SERAIT LA REPONSE</that>
+		<template>Bien joué!
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/bagheera-personnage-livre-jungle-05.jpg"/></li>. Une autre?</template>
+	</category>
+
+	<category>
+		<pattern>JE NE SAIS PAS</pattern>
+		<that>QUEL SERAIT LA REPONSE</that>
+		<template>C'est Bagheera: 
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/bagheera-personnage-livre-jungle-05.jpg"/></li>. Une autre?</template>
+	</category>
+
+	<category>
+		<pattern>*</pattern>
+		<that>QUEL SERAIT LA REPONSE</that>
+		<template>C'est Bagheera: 
+			<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/bagheera-personnage-livre-jungle-05.jpg"/></li>. Une autre?</template>
+	</category>
+
+
+	<category>
+		<pattern>C'EST MOWGLI</pattern>
+		<that>QUI EST-CE</that>
+		<template>Bien joué!<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/mowgli-personnage-livre-jungle-07.jpg"/></li>. Une autre?</template>
+	</category>
+
+	<category>
+		<pattern>JE NE SAIS PAS</pattern>
+		<that>QUI EST-CE</that>
+		<template>C'est Mowgli:<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/mowgli-personnage-livre-jungle-07.jpg"/></li>. Une autre?</template>
+	</category>
+
+	<category>
+		<pattern>*</pattern>
+		<that>QUI EST-CE</that>
+		<template>C'est Mowgli:<li><img src="https://disney-planet.fr/wp-content/uploads/2015/08/mowgli-personnage-livre-jungle-07.jpg"/></li>. Une autre?</template>
+	</category>
+
+	<category>
+		<pattern>C'EST BALOO</pattern>
+		<that>COMMENT M'APPELLE T-ON</that>
+		<template>Bien joué! Clique sur le lien:
+			<img src="https://disney-planet.fr/wp-content/uploads/2015/08/baloo-personnage-livre-jungle-08.jpg"/>.
+
+		 Une autre?</template>
+	</category>
+
+	<category>
+		<pattern>JE NE SAIS PAS</pattern>
+		<that>COMMENT M'APPELLE T-ON</that>
+		<template>C'est Baloo :<img src="https://disney-planet.fr/wp-content/uploads/2015/08/baloo-personnage-livre-jungle-08.jpg"/>.
+		 Une autre?</template>
+	</category>
+
+	<category>
+		<pattern>*</pattern>
+		<that>COMMENT M'APPELLE T-ON</that>
+		<template>C'est Baloo:<img src="https://disney-planet.fr/wp-content/uploads/2015/08/baloo-personnage-livre-jungle-08.jpg"/>. Une autre?</template>
+	</category>
+
+
+
+	<category>
+		<pattern>C'EST WINIFRED</pattern>
+		<that>AS-TU TROUVE</that>
+		<template>Bien joué!<li><img src="https://disney-planet.fr/wp-content/uploads/2016/03/winifred-personnage-le-livre-de-la-jungle-01.jpg"/></li>.	Une autre?</template>
+	</category>
+
+	<category>
+		<pattern>JE NE SAIS PAS</pattern>
+		<that>AS-TU TROUVE</that>
+		<template>C'est Winifred: <li><img src="https://disney-planet.fr/wp-content/uploads/2016/03/winifred-personnage-le-livre-de-la-jungle-01.jpg"/></li>. Une autre?</template>
+	</category>
+
+	<category>
+		<pattern>*</pattern>
+		<that>AS-TU TROUVE</that>
+		<template>C'est Winifred: <li><img src="https://disney-planet.fr/wp-content/uploads/2016/03/winifred-personnage-le-livre-de-la-jungle-01.jpg"/></li>. Une autre?</template>
+	</category>
+
+
+
+	<category>
+		<pattern>C'EST SHANTI</pattern>
+		<that>C'EST</that>
+		<template>Bien joué!<li><img src="https://disney-planet.fr/wp-content/uploads/2016/03/shanti-personnage-le-livre-de-la-jungle-03.jpg"/></li>. Une autre?</template>
+	</category>
+
+	<category>
+		<pattern>JE NE SAIS PAS</pattern>
+		<that>C'EST</that>
+		<template>C'est Shanti:<li><img src="https://disney-planet.fr/wp-content/uploads/2016/03/shanti-personnage-le-livre-de-la-jungle-03.jpg"/></li>. Une autre?</template>
+	</category>
+
+	<category>
+		<pattern>*</pattern>
+		<that>C'EST</that>
+		<template>C'est Shanti: <li><img src="https://disney-planet.fr/wp-content/uploads/2016/03/shanti-personnage-le-livre-de-la-jungle-03.jpg"/></li>. Une autre?</template>
+	</category>
+
+
+
+	<category>
+		<pattern>C'EST ROI LOUIE</pattern>
+		<that>LA REPONSE EST</that>
+		<template>Bien joué! <image>http://www.lecinemaestpolitique.fr/wp-content/uploads/2014/05/louie08.jpg</image>. Une autre?</template>
+	</category>
+
+	<category>
+		<pattern>JE NE SAIS PAS</pattern>
+		<that>LA REPONSE EST</that>
+		<template>C'est Roi Louie: <image>http://www.lecinemaestpolitique.fr/wp-content/uploads/2014/05/louie08.jpg</image>. Une autre?</template>
+	</category>
+
+	<category>
+		<pattern>*</pattern>
+		<that>LA REPONSE EST</that>
+		<template>C'est Roi Louie: <image>http://www.lecinemaestpolitique.fr/wp-content/uploads/2014/05/louie08.jpg</image>. Une autre?</template>
+	</category>
+
+	<category>
+		<pattern>C'EST COLONEL HATHI</pattern>
+		<that>DONC</that>
+		<template>Bien joué! <li><img src="https://disney-planet.fr/wp-content/uploads/2016/03/colonel-hathi-personnage-le-livre-de-la-jungle-01.jpg"/></li>. Une autre?</template>
+	</category>
+
+	<category>
+		<pattern>JE NE SAIS PAS</pattern>
+		<that>DONC</that>
+		<template>C'est Colonel Hathi: <li><img src="https://disney-planet.fr/wp-content/uploads/2016/03/colonel-hathi-personnage-le-livre-de-la-jungle-01.jpg"/></li>. Une autre?</template>
+	</category>
+
+	<category>
+		<pattern>*</pattern>
+		<that>DONC</that>
+		<template>C'est Colonel Hathi:<li><img src="https://disney-planet.fr/wp-content/uploads/2016/03/colonel-hathi-personnage-le-livre-de-la-jungle-01.jpg"/></li>. Une autre?</template>
+	</category> 
+
+
+	<category>
+		<pattern>C'EST JUNIOR</pattern>
+		<that>JE SUIS</that>
+		<template>Bien joué! <li><img src="https://disney-planet.fr/wp-content/uploads/2016/03/junior-personnage-le-livre-de-la-jungle-04.jpg"/></li>. Une autre?</template>
+	</category>
+
+	<category>
+		<pattern>JE NE SAIS PAS</pattern>
+		<that>JE SUIS</that>
+		<template>C'est Junior: <li><img src="https://disney-planet.fr/wp-content/uploads/2016/03/junior-personnage-le-livre-de-la-jungle-04.jpg"/></li>. Une autre?</template>
+	</category>
+
+	<category>
+		<pattern>*</pattern>
+		<that>JE SUIS</that>
+		<template>C'est Junior: <li><img src="https://disney-planet.fr/wp-content/uploads/2016/03/junior-personnage-le-livre-de-la-jungle-04.jpg"/></li>. Une autre?</template>
+	</category>                                              
+
+
+
+	<category>
+		<pattern>C'EST RAMA</pattern>
+		<that>CE PERSONNAGE EST</that>
+		<template>Bien joué! <image>https://i.pinimg.com/originals/4c/c9/84/4cc984c3d3f313c00b8ab4a1a048410d.jpg</image>. Une autre?</template>
+	</category>
+
+	<category>
+		<pattern>JE NE SAIS PAS</pattern>
+		<that>CE PERSONNAGE EST</that>
+		<template>C'est Rama: <image>https://i.pinimg.com/originals/4c/c9/84/4cc984c3d3f313c00b8ab4a1a048410d.jpg</image>. Une autre?</template>
+	</category>
+
+	<category>
+		<pattern>*</pattern>
+		<that>CE PERSONNAGE EST</that>
+		<template>C'est Rama: <image>https://i.pinimg.com/originals/4c/c9/84/4cc984c3d3f313c00b8ab4a1a048410d.jpg</image>. Une autre?</template>
+	</category>                                              
+                                             
+
+</aiml>

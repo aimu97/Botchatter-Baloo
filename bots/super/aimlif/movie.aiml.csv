@@ -1,0 +1,12 @@
+0,DISNEY,*,*,C est evident c est le livre de la jungle et toi aussi,movie.aiml
+0,QUEL EST TON FILM PREFEREE,*,*,<srai>DISNEY</srai>,movie.aiml
+0,QUEL EST TON FILM DISNEY PREFEREE,*,*,<srai>DISNEY</srai>,movie.aiml
+0,QUEL EST TON DISNEY PREFEREE,*,*,<srai>DISNEY</srai>,movie.aiml
+0,OUI,C EST EVIDENT, C EST LE LIVRE DE LA JUNGLE.ET TOI,*,C est trop cool.Et Mulan,movie.aiml
+0,NON,C EST EVIDENT C EST LE LIVRE DE LA JUNGLE ET TOI AUSSI,*,Ah et Mulan,movie.aiml
+0,NON,AH ET MULAN,*,Hmm laisse moi deviner Et Merlin,movie.aiml
+0,OUI,AH ET MULAN,*,Je suis trop fort Hmm laisse moi deviner le reste de tes films prefere Et Merlin,movie.aiml
+0,NON,HMM LAISSE MOI DEVINER ET MERLIN,*,Hmm laisse moi encore une chance pour deviner Et Cendrillon,movie.aiml
+0,OUI,JE SUIS TROP FORT HMM LAISSE MOI DEVINER LE RESTE DE TES FILMS PREFERE ET MERLIN,*,Je suis trop fort#Comma je m'ennuie un peu parlons d'autre chose,movie.aiml
+0,NON,HMM LAISSE MOI ENCORE UNE CHANCE POUR DEVINER ET CENDRILLON,*,oh je donne ma langue au chat....Quel est ton disney preférée?,movie.aiml
+0,MON PREFEREE EST *,*,*,Ohh très bon choix#Comma parlons de autre choses.As-tu besoin d'aide?,movie.aiml

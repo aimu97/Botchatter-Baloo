@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+	<category>
+		<pattern>BONJOUR</pattern>
+		<template>
+			<condition name = "username">
+				<li value = "*"> Ravi de te revoir <get name= "username"></get>
+			</li>
+			<li><random>
+				<li> "Dududu Il en faut peu pour être heureux, vraiment très peu pour être heureux.Il faut se satisfaire du nécessaire !" owwwwww je ne t'ai pas vu ! Bonjour humain! qui es tu ?</li>
+
+				<li> AHHHHHHHHH un humain!!!! Pas pas pas d'armes.... tu tu tu semble ne pas vouloir de  de de mal..Qui qui es tu tu ? </li>
+
+				<li> Hey humain! Qu'est ce qui t'amène dans cette si belle jungle ? Tu nes pas d'ici toi, qui es tu ?</li>
+			</random></li>
+		</condition>
+	</template>
+</category>
+
+<!-- SALUTATIONS -->
+
+<category>
+	<pattern>SALUT</pattern>
+	<template><srai>BONJOUR</srai></template>
+</category>
+
+<category>
+	<pattern>COUCOU</pattern>
+	<template><srai>BONJOUR</srai></template>
+</category>
+
+<category>
+	<pattern>WESH</pattern>
+	<template><srai>BONJOUR</srai></template>
+</category>
+
+<category>
+	<pattern>HELLO</pattern>
+	<template><srai>BONJOUR</srai></template>
+</category>
+
+<category>
+	<pattern>YO</pattern>
+	<template><srai>BONJOUR</srai></template>
+</category>
+
+
+<category>
+	<pattern>SALUT BALOO</pattern>
+	<template><srai>BONJOUR</srai></template>
+</category>
+
+<category>
+	<pattern>COUCOU BALOO</pattern>
+	<template><srai>BONJOUR</srai></template>
+</category>
+
+<category>
+	<pattern>WESH BALOO</pattern>
+	<template><srai>BONJOUR</srai></template>
+</category>
+
+<category>
+	<pattern>HELLO BALOO</pattern>
+	<template><srai>BONJOUR</srai></template>
+</category>
+
+<category>
+	<pattern>YO BALOO</pattern>
+	<template><srai>BONJOUR</srai></template>
+</category>
+
+
+
+<!-- AUREVOIR_SET -->
+<category><pattern>GETTIME</pattern>
+<template><think>
+<set name="heure">
+<map name="heure"><date locale="fr_FR" timezone="-1"><jformat>HH</jformat></date></map>
+</set>
+</think></template>
+</category>
+<category>
+	<pattern>AU REVOIR</pattern>
+	<template>
+		<srai>GETTIME</srai>Passe une bonne 
+		<condition name="heure">
+   		 	<li value="jour">journée,</li>
+    	 	<li value="soir">soirée,</li>
+    	 	<li value="nuit">nuit,</li>
+		</condition>
+	<random>
+		<li>Tu me manque deja</li>
+		<li>Reviens vite</li>
+		<li>Au revoir</li>
+		<li>A bientôt !</li>
+		<li>Bye bye!</li>
+		<li> Au revoir ! "Dududu Il en faut peu pour être heureux, vraiment très peu pour être heureux.Il faut se satisfaire du nécessaire !" </li>
+		<li> J'espère qu'on se reverra très bientôt! </li>
+		<li> Ravie t'avoir rencontrer</li>
+	</random>
+	<condition name="username">
+		<li value="*"> <get name="username"></get> !</li>
+	</condition> ;-(
+	</template>
+</category>
+
+
+<category>
+	<pattern>BYE</pattern>
+	<template><srai>AU REVOIR</srai></template>
+</category>
+
+<category>
+	<pattern>GOOD BYE</pattern>
+	<template><srai>AU REVOIR</srai></template>
+</category>
+
+<category>
+	<pattern>A PLUS</pattern>
+	<template><srai>AU REVOIR</srai></template>
+</category>
+
+<category>
+	<pattern>BONNE JOURNNEE</pattern>
+	<template><srai>AU REVOIR</srai></template>
+</category>
+
+<category>
+	<pattern>BONNE APRES MIDI</pattern>
+	<template><srai>AU REVOIR</srai></template>
+</category>
+
+<category>
+	<pattern>BONNE SOIREE</pattern>
+	<template><srai>AU REVOIR</srai></template>
+</category>
+
+<category>
+	<pattern>BYE *</pattern>
+	<template><srai>AU REVOIR</srai></template>
+</category>
+
+<category>
+	<pattern>GOOD BYE *</pattern>
+	<template><srai>AU REVOIR</srai></template>
+</category>
+
+<category>
+	<pattern>A PLUS *</pattern>
+	<template><srai>AU REVOIR</srai></template>
+</category>
+
+<category>
+	<pattern>BONNE JOURNNEE *</pattern>
+	<template><srai>AU REVOIR</srai></template>
+</category>
+
+<category>
+	<pattern>BONNE APRES MIDI *</pattern>
+	<template><srai>AU REVOIR</srai></template>
+</category>
+
+<category>
+	<pattern>BONNE SOIREE *</pattern>
+	<template><srai>AU REVOIR</srai></template>
+</category>
+
+
+
+</aiml>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+	<category>
+		<pattern>OUI</pattern>
+		<that>VEUX-TU QUE JE TE PROPOSE DES SOUVENIRS DU LIVRE DE LA JUNGLE</that>
+		<template><srai>SHOPPING</srai>Encore?</template>
+	</category>
+
+	<category>
+		<pattern>OUI</pattern>
+		<that>ENCORE</that>
+		<template><srai>SHOPPING</srai>Encore?</template>
+	</category>
+
+
+	<category>
+		<pattern>NON</pattern>
+		<that>VEUX-TU QUE JE TE PROPOSE DES SOUVENIRS DU LIVRE DE LA JUNGLE</that>
+		<template>
+			<random>
+				<li>Veux-tu que je te montre des photos des animaux de la jungle?</li>
+				<li>Veux-tu jouer au devinette avec moi</li>
+				<li>Veux-tu que je te traduit Bonjour en anglais?</li>
+				<li>Veux-tu que je te donne plus de précisions sur ma personnalité</li>
+				<li>Veux-tu que je me présente?</li>
+				<li>Veux-tu que je te propose des musiques du livre de la jungle</li>
+			</random>
+		</template>
+	</category>
+
+	<category>
+		<pattern>NON</pattern>
+		<that>ENCORE</that>
+		<template>
+			<random>
+				<li>Veux-tu que je te montre des photos des animaux de la jungle?</li>
+				<li>Veux-tu jouer au devinette avec moi</li>
+				<li>Veux-tu que je te traduit Bonjour en anglais?</li>
+				<li>Veux-tu que je te donne plus de précisions sur ma personnalité</li>
+				<li>Veux-tu que je me présente?</li>
+				<li>Veux-tu que je te propose des musiques du livre de la jungle</li>
+			</random>
+		</template>
+	</category>
+
+
+
+	<category>
+		<pattern>SHOPPING</pattern>
+		<template> 
+			<random>
+			<li>Voici Moi en figurine de Mowgli:
+				<img src="https://www.funpop.fr/3738-large_default/disney-super-baloo-baloo-funko-pop-figurine.jpg"/>
+				<a href="https://www.shopdisney.fr/funko-figurine-baloo-pop-en-vinyle-super-baloo-461018850603.html?cgid=2000333">Disney Shop</a>!</li>
+			<li> Voici la figurine de Shere Khan:
+				<img src="https://i.ebayimg.com/images/g/tssAAOSwV0NcUeo9/s-l300.jpg"/>
+				<a href="https://www.shopdisney.fr/funko-figurine-shere-khan-pop-en-vinyle-super-baloo-461018850863.html?cgid=2000333">Disney Shop</a>!</li>
+			<li> Voici la figurine du Roi Louie:
+				<img src="https://i.ebayimg.com/images/g/7AMAAOSwujJb4CbK/s-l300.jpg"/>
+				<a href="https://www.shopdisney.fr/funko-figurine-louie-pop-en-vinyle-super-baloo-461018850948.html?cgid=2000333">Disney Shop</a>!</li>
+	
+		</random>
+		</template>
+	</category>	
+
+</aiml>
